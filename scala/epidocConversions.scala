@@ -1,7 +1,11 @@
+//i. Necessary Packages
+
 import scala.xml._
 import java.io._
 import scala.util.matching.Regex
 import scala.sys.process._
+
+//I. Class to deal with legacy text: requires currentTransforms.txt to run
 
 class LegacyPerseusText(
   val urn: String,
@@ -24,7 +28,19 @@ class LegacyPerseusText(
   
 }
 
-//Other fixes
+//II. Other misc fixes
+
+//High priority: 
+//1) write logic to deal with revisionDesc
+//2) write logic to add lang and urn attributes to body
+//3)write logic to add edition or translation wrapper div
+//4)add handling of ids -> xml:ids
+//5)refine and complete logic to fix funder attributes
+//6)test for XML integrity and EpiDoc compliance automatically
+//7) add some of test logic from old code
+
+//Low priority:
+//1) write logic to deal with change in <date> and its attributes
 
 //For XML: doesn't change &gt &lt or &amp
 
@@ -106,7 +122,7 @@ def fixCorrSic = {
 
 }
 
-//use case
+//III. Demonstration of Use
 
 def fixProblems(example:LegacyPerseusText) = {
     val p = new java.io.File(example.filePath)
@@ -126,9 +142,10 @@ def fixProblems(example:LegacyPerseusText) = {
 
 val test = new LegacyPerseusText("tlg0007.tlg023.perseus-eng1", "greekLit/tlg0007/tlg023/tlg0007.tlg023.perseus-eng1.xml","Stella Dee","testing","2015")
 
-fixProblems(test)
+//uncomment next line to run
+//fixProblems(test)
 
-//Generally helpful Scala functions
+//IV. A few generally helpful Scala functions
 
 //To get list of all files in directory:
 
