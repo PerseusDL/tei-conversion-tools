@@ -1,0 +1,27 @@
+&Perseus.DE;!!!<!--&Perseus.DE;-->
+&Perseus.OCR;!!!Perseus OCR <!--&Perseus.OCR;-->
+anchored="yes"!!!anchored="true"
+<language id="!!!<language ident="
+pb id="!!!pb n="
+<state!!!<refState
+<foreName!!!<forename
+</foreName>!!!</forename>
+lang="greek"!!!xml:lang="grc"
+lang="latin"!!!xml:lang="lat"
+lang="english"!!!xml:lang="eng"
+lang="!!!xml:lang="
+status="new">!!!>
+<gap/>!!!<gap reason="ellipsis"/>
+&Perseus.publish;!!!<publicationStmt><publisher>Trustees of Tufts University</publisher><pubPlace>Medford, MA</pubPlace><authority>Perseus Project</authority></publicationStmt>
+&responsibility;!!!<respStmt><resp>Prepared under the supervision of</resp><name>Lisa Cerrato</name><name>William Merrill</name><name>Elli Mylonas</name><name>David Smith</name></respStmt>
+<refsDecl doctype="TEI.2"!!!<refsDecl
+doctype="tei.2">!!!>
+type="chapter"!!!type="textpart" subtype="chapter"
+type="section"!!!type="textpart" subtype="section"
+<div1!!!<div
+<div2!!!<div
+<div3!!!<div
+</div1>!!!</div>
+</div2>!!!</div>
+</div3>!!!</div>
+<q direct="unspecified"!!!<q type="unspecified"
