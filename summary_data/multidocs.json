@@ -1,0 +1,1231 @@
+[
+	{
+		"id": "1999.01.0226",
+		"sub": [],
+		"urn": "",
+		"src": "CVS:/texts/sdl/Callimachus/call_gk.xml",
+		"status": "Not migrated - Composite doc",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.01.0226",
+		"sub": [
+			"text=epigrams"
+		],
+		"urn": "urn:cts:greekLit:tlg0533.tlg003.perseus-grc1",
+		"src": "subdoc",
+		"status": "Not migrated - Subdoc",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.01.0226",
+		"sub": [
+			"text=hymns",
+			"poem=1"
+		],
+		"urn": "urn:cts:greekLit:tlg0533.tlg015.perseus-grc2",
+		"src": "subdoc",
+		"status": "Not migrated - Subdoc",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.01.0226",
+		"sub": [
+			"text=hymns",
+			"poem=2"
+		],
+		"urn": "urn:cts:greekLit:tlg0533.tlg016.perseus-grc2",
+		"src": "subdoc",
+		"status": "Not migrated - Subdoc",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.01.0226",
+		"sub": [
+			"text=hymns",
+			"poem=3"
+		],
+		"urn": "urn:cts:greekLit:tlg0533.tlg017.perseus-grc2",
+		"src": "subdoc",
+		"status": "Not migrated - Subdoc",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.01.0226",
+		"sub": [
+			"text=hymns",
+			"poem=4"
+		],
+		"urn": "urn:cts:greekLit:tlg0533.tlg018.perseus-grc2",
+		"src": "subdoc",
+		"status": "Not migrated - Subdoc",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.01.0226",
+		"sub": [
+			"text=hymns",
+			"poem=5"
+		],
+		"urn": "urn:cts:greekLit:tlg0533.tlg019.perseus-grc2",
+		"src": "subdoc",
+		"status": "Not migrated - Subdoc",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.01.0226",
+		"sub": [
+			"text=hymns",
+			"poem=6"
+		],
+		"urn": "urn:cts:greekLit:tlg0533.tlg020.perseus-grc2",
+		"src": "subdoc",
+		"status": "Not migrated - Subdoc",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.01.0245",
+		"sub": [],
+		"urn": "",
+		"src": "CVS:/texts/Classics/Isocrates/copyright/isoc.l_gk.xml",
+		"status": "Not migrated - Composite doc",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.01.0245",
+		"sub": [
+			"collection=l.",
+			"letter=1"
+		],
+		"urn": "urn:cts:greekLit:tlg0010.tlg022.perseus-grc1",
+		"src": "subdoc",
+		"status": "Not migrated - Subdoc",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.01.0245",
+		"sub": [
+			"collection=l.",
+			"letter=2"
+		],
+		"urn": "urn:cts:greekLit:tlg0010.tlg027.perseus-grc1",
+		"src": "subdoc",
+		"status": "Not migrated - Subdoc",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.01.0245",
+		"sub": [
+			"collection=l.",
+			"letter=3"
+		],
+		"urn": "urn:cts:greekLit:tlg0010.tlg030.perseus-grc1",
+		"src": "subdoc",
+		"status": "Not migrated - Subdoc",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.01.0245",
+		"sub": [
+			"collection=l.",
+			"letter=4"
+		],
+		"urn": "urn:cts:greekLit:tlg0010.tlg029.perseus-grc1",
+		"src": "subdoc",
+		"status": "Not migrated - Subdoc",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.01.0245",
+		"sub": [
+			"collection=l.",
+			"letter=5"
+		],
+		"urn": "urn:cts:greekLit:tlg0010.tlg028.perseus-grc1",
+		"src": "subdoc",
+		"status": "Not migrated - Subdoc",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.01.0245",
+		"sub": [
+			"collection=l.",
+			"letter=6"
+		],
+		"urn": "urn:cts:greekLit:tlg0010.tlg023.perseus-grc1",
+		"src": "subdoc",
+		"status": "Not migrated - Subdoc",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.01.0245",
+		"sub": [
+			"collection=l.",
+			"letter=7"
+		],
+		"urn": "urn:cts:greekLit:tlg0010.tlg026.perseus-grc1",
+		"src": "subdoc",
+		"status": "Not migrated - Subdoc",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.01.0245",
+		"sub": [
+			"collection=l.",
+			"letter=8"
+		],
+		"urn": "urn:cts:greekLit:tlg0010.tlg025.perseus-grc1",
+		"src": "subdoc",
+		"status": "Not migrated - Subdoc",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.01.0245",
+		"sub": [
+			"collection=l.",
+			"letter=9"
+		],
+		"urn": "urn:cts:greekLit:tlg0010.tlg024.perseus-grc1",
+		"src": "subdoc",
+		"status": "Not migrated - Subdoc",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.01.0246",
+		"sub": [],
+		"urn": "",
+		"src": "CVS:/texts/Classics/Isocrates/copyright/isoc.l_eng.xml",
+		"status": "Not migrated - Composite doc",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.01.0246",
+		"sub": [
+			"collection=l.",
+			"letter=1"
+		],
+		"urn": "urn:cts:greekLit:tlg0010.tlg022.perseus-eng1",
+		"src": "subdoc",
+		"status": "Not migrated - Subdoc",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.01.0246",
+		"sub": [
+			"collection=l.",
+			"letter=2"
+		],
+		"urn": "urn:cts:greekLit:tlg0010.tlg027.perseus-eng1",
+		"src": "subdoc",
+		"status": "Not migrated - Subdoc",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.01.0246",
+		"sub": [
+			"collection=l.",
+			"letter=3"
+		],
+		"urn": "urn:cts:greekLit:tlg0010.tlg030.perseus-eng1",
+		"src": "subdoc",
+		"status": "Not migrated - Subdoc",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.01.0246",
+		"sub": [
+			"collection=l.",
+			"letter=4"
+		],
+		"urn": "urn:cts:greekLit:tlg0010.tlg029.perseus-eng1",
+		"src": "subdoc",
+		"status": "Not migrated - Subdoc",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.01.0246",
+		"sub": [
+			"collection=l.",
+			"letter=5"
+		],
+		"urn": "urn:cts:greekLit:tlg0010.tlg028.perseus-eng1",
+		"src": "subdoc",
+		"status": "Not migrated - Subdoc",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.01.0246",
+		"sub": [
+			"collection=l.",
+			"letter=6"
+		],
+		"urn": "urn:cts:greekLit:tlg0010.tlg023.perseus-eng1",
+		"src": "subdoc",
+		"status": "Not migrated - Subdoc",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.01.0246",
+		"sub": [
+			"collection=l.",
+			"letter=7"
+		],
+		"urn": "urn:cts:greekLit:tlg0010.tlg026.perseus-eng1",
+		"src": "subdoc",
+		"status": "Not migrated - Subdoc",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.01.0246",
+		"sub": [
+			"collection=l.",
+			"letter=8"
+		],
+		"urn": "urn:cts:greekLit:tlg0010.tlg025.perseus-eng1",
+		"src": "subdoc",
+		"status": "Not migrated - Subdoc",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.01.0246",
+		"sub": [
+			"collection=l.",
+			"letter=9"
+		],
+		"urn": "urn:cts:greekLit:tlg0010.tlg024.perseus-eng1",
+		"src": "subdoc",
+		"status": "Not migrated - Subdoc",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.04.0029",
+		"sub": [],
+		"urn": "",
+		"src": "CVS:/texts/Classics/Homeric_Hymns/opensource/allen.hh_eng.xml",
+		"status": "Not migrated - Composite doc",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.04.0029",
+		"sub": [
+			"text=comm",
+			"poem=1"
+		],
+		"urn": "",
+		"src": "subdoc",
+		"status": "Not migrated - Composite doc",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.04.0029",
+		"sub": [
+			"text=comm",
+			"poem=10"
+		],
+		"urn": "",
+		"src": "subdoc",
+		"status": "Not migrated - No CTS URN",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.04.0029",
+		"sub": [
+			"text=comm",
+			"poem=11"
+		],
+		"urn": "",
+		"src": "subdoc",
+		"status": "Not migrated - No CTS URN",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.04.0029",
+		"sub": [
+			"text=comm",
+			"poem=12"
+		],
+		"urn": "",
+		"src": "subdoc",
+		"status": "Not migrated - No CTS URN",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.04.0029",
+		"sub": [
+			"text=comm",
+			"poem=13"
+		],
+		"urn": "",
+		"src": "subdoc",
+		"status": "Not migrated - No CTS URN",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.04.0029",
+		"sub": [
+			"text=comm",
+			"poem=14"
+		],
+		"urn": "",
+		"src": "subdoc",
+		"status": "Not migrated - No CTS URN",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.04.0029",
+		"sub": [
+			"text=comm",
+			"poem=15"
+		],
+		"urn": "",
+		"src": "subdoc",
+		"status": "Not migrated - No CTS URN",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.04.0029",
+		"sub": [
+			"text=comm",
+			"poem=16"
+		],
+		"urn": "",
+		"src": "subdoc",
+		"status": "Not migrated - No CTS URN",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.04.0029",
+		"sub": [
+			"text=comm",
+			"poem=17"
+		],
+		"urn": "",
+		"src": "subdoc",
+		"status": "Not migrated - No CTS URN",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.04.0029",
+		"sub": [
+			"text=comm",
+			"poem=18"
+		],
+		"urn": "",
+		"src": "subdoc",
+		"status": "Not migrated - No CTS URN",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.04.0029",
+		"sub": [
+			"text=comm",
+			"poem=19"
+		],
+		"urn": "",
+		"src": "subdoc",
+		"status": "Not migrated - No CTS URN",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.04.0029",
+		"sub": [
+			"text=comm",
+			"poem=2"
+		],
+		"urn": "",
+		"src": "subdoc",
+		"status": "Not migrated - Composite doc",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.04.0029",
+		"sub": [
+			"text=comm",
+			"poem=20"
+		],
+		"urn": "",
+		"src": "subdoc",
+		"status": "Not migrated - No CTS URN",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.04.0029",
+		"sub": [
+			"text=comm",
+			"poem=21"
+		],
+		"urn": "",
+		"src": "subdoc",
+		"status": "Not migrated - No CTS URN",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.04.0029",
+		"sub": [
+			"text=comm",
+			"poem=22"
+		],
+		"urn": "",
+		"src": "subdoc",
+		"status": "Not migrated - No CTS URN",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.04.0029",
+		"sub": [
+			"text=comm",
+			"poem=23"
+		],
+		"urn": "",
+		"src": "subdoc",
+		"status": "Not migrated - No CTS URN",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.04.0029",
+		"sub": [
+			"text=comm",
+			"poem=24"
+		],
+		"urn": "",
+		"src": "subdoc",
+		"status": "Not migrated - No CTS URN",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.04.0029",
+		"sub": [
+			"text=comm",
+			"poem=25"
+		],
+		"urn": "",
+		"src": "subdoc",
+		"status": "Not migrated - No CTS URN",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.04.0029",
+		"sub": [
+			"text=comm",
+			"poem=26"
+		],
+		"urn": "",
+		"src": "subdoc",
+		"status": "Not migrated - No CTS URN",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.04.0029",
+		"sub": [
+			"text=comm",
+			"poem=27"
+		],
+		"urn": "",
+		"src": "subdoc",
+		"status": "Not migrated - No CTS URN",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.04.0029",
+		"sub": [
+			"text=comm",
+			"poem=28"
+		],
+		"urn": "",
+		"src": "subdoc",
+		"status": "Not migrated - No CTS URN",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.04.0029",
+		"sub": [
+			"text=comm",
+			"poem=29"
+		],
+		"urn": "",
+		"src": "subdoc",
+		"status": "Not migrated - No CTS URN",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.04.0029",
+		"sub": [
+			"text=comm",
+			"poem=3"
+		],
+		"urn": "",
+		"src": "subdoc",
+		"status": "Not migrated - Composite doc",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.04.0029",
+		"sub": [
+			"text=comm",
+			"poem=30"
+		],
+		"urn": "",
+		"src": "subdoc",
+		"status": "Not migrated - No CTS URN",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.04.0029",
+		"sub": [
+			"text=comm",
+			"poem=31"
+		],
+		"urn": "",
+		"src": "subdoc",
+		"status": "Not migrated - No CTS URN",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.04.0029",
+		"sub": [
+			"text=comm",
+			"poem=32"
+		],
+		"urn": "",
+		"src": "subdoc",
+		"status": "Not migrated - No CTS URN",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.04.0029",
+		"sub": [
+			"text=comm",
+			"poem=33"
+		],
+		"urn": "",
+		"src": "subdoc",
+		"status": "Not migrated - No CTS URN",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.04.0029",
+		"sub": [
+			"text=comm",
+			"poem=4"
+		],
+		"urn": "",
+		"src": "subdoc",
+		"status": "Not migrated - No CTS URN",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.04.0029",
+		"sub": [
+			"text=comm",
+			"poem=5"
+		],
+		"urn": "",
+		"src": "subdoc",
+		"status": "Not migrated - No CTS URN",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.04.0029",
+		"sub": [
+			"text=comm",
+			"poem=6"
+		],
+		"urn": "",
+		"src": "subdoc",
+		"status": "Not migrated - No CTS URN",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.04.0029",
+		"sub": [
+			"text=comm",
+			"poem=7"
+		],
+		"urn": "",
+		"src": "subdoc",
+		"status": "Not migrated - No CTS URN",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.04.0029",
+		"sub": [
+			"text=comm",
+			"poem=8"
+		],
+		"urn": "",
+		"src": "subdoc",
+		"status": "Not migrated - No CTS URN",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.04.0029",
+		"sub": [
+			"text=comm",
+			"poem=9"
+		],
+		"urn": "",
+		"src": "subdoc",
+		"status": "Not migrated - No CTS URN",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.04.0100",
+		"sub": [],
+		"urn": "",
+		"src": "CVS:/texts/Classics/JebbOrators/opensource/jebb.selections.xml",
+		"status": "Not migrated - Composite doc",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.04.0100",
+		"sub": [
+			"orator=Andocides",
+			"speech=1"
+		],
+		"urn": "",
+		"src": "subdoc",
+		"status": "Not migrated - No CTS URN",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.04.0100",
+		"sub": [
+			"orator=Andocides",
+			"speech=2"
+		],
+		"urn": "",
+		"src": "subdoc",
+		"status": "Not migrated - No CTS URN",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.04.0100",
+		"sub": [
+			"orator=Antiphon",
+			"speech=3"
+		],
+		"urn": "",
+		"src": "subdoc",
+		"status": "Not migrated - No CTS URN",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.04.0100",
+		"sub": [
+			"orator=Antiphon",
+			"speech=4"
+		],
+		"urn": "",
+		"src": "subdoc",
+		"status": "Not migrated - No CTS URN",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.04.0100",
+		"sub": [
+			"orator=Antiphon",
+			"speech=5"
+		],
+		"urn": "",
+		"src": "subdoc",
+		"status": "Not migrated - No CTS URN",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.04.0100",
+		"sub": [
+			"orator=Antiphon",
+			"speech=6"
+		],
+		"urn": "",
+		"src": "subdoc",
+		"status": "Not migrated - No CTS URN",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.04.0100",
+		"sub": [
+			"orator=Isaeus",
+			"speech=11"
+		],
+		"urn": "",
+		"src": "subdoc",
+		"status": "Not migrated - No CTS URN",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.04.0100",
+		"sub": [
+			"orator=Isaeus",
+			"speech=5"
+		],
+		"urn": "",
+		"src": "subdoc",
+		"status": "Not migrated - No CTS URN",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.04.0100",
+		"sub": [
+			"orator=Isaeus",
+			"speech=8"
+		],
+		"urn": "",
+		"src": "subdoc",
+		"status": "Not migrated - No CTS URN",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.04.0100",
+		"sub": [
+			"orator=Isocrates",
+			"speech=10"
+		],
+		"urn": "",
+		"src": "subdoc",
+		"status": "Not migrated - No CTS URN",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.04.0100",
+		"sub": [
+			"orator=Isocrates",
+			"speech=13"
+		],
+		"urn": "",
+		"src": "subdoc",
+		"status": "Not migrated - No CTS URN",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.04.0100",
+		"sub": [
+			"orator=Isocrates",
+			"speech=15"
+		],
+		"urn": "",
+		"src": "subdoc",
+		"status": "Not migrated - No CTS URN",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.04.0100",
+		"sub": [
+			"orator=Isocrates",
+			"speech=19"
+		],
+		"urn": "",
+		"src": "subdoc",
+		"status": "Not migrated - No CTS URN",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.04.0100",
+		"sub": [
+			"orator=Isocrates",
+			"speech=3"
+		],
+		"urn": "",
+		"src": "subdoc",
+		"status": "Not migrated - No CTS URN",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.04.0100",
+		"sub": [
+			"orator=Isocrates",
+			"speech=4"
+		],
+		"urn": "",
+		"src": "subdoc",
+		"status": "Not migrated - No CTS URN",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.04.0100",
+		"sub": [
+			"orator=Isocrates",
+			"speech=6"
+		],
+		"urn": "",
+		"src": "subdoc",
+		"status": "Not migrated - No CTS URN",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.04.0100",
+		"sub": [
+			"orator=Isocrates",
+			"speech=7"
+		],
+		"urn": "",
+		"src": "subdoc",
+		"status": "Not migrated - No CTS URN",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.04.0100",
+		"sub": [
+			"orator=Isocrates",
+			"speech=8"
+		],
+		"urn": "",
+		"src": "subdoc",
+		"status": "Not migrated - No CTS URN",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.04.0100",
+		"sub": [
+			"orator=Isocrates",
+			"speech=9"
+		],
+		"urn": "",
+		"src": "subdoc",
+		"status": "Not migrated - No CTS URN",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.04.0100",
+		"sub": [
+			"orator=Isocrates",
+			"speech=l.3"
+		],
+		"urn": "",
+		"src": "subdoc",
+		"status": "Not migrated - No CTS URN",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.04.0100",
+		"sub": [
+			"orator=Isocrates",
+			"speech=l.5"
+		],
+		"urn": "",
+		"src": "subdoc",
+		"status": "Not migrated - No CTS URN",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.04.0100",
+		"sub": [
+			"orator=Lysias",
+			"speech=10"
+		],
+		"urn": "",
+		"src": "subdoc",
+		"status": "Not migrated - No CTS URN",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.04.0100",
+		"sub": [
+			"orator=Lysias",
+			"speech=12"
+		],
+		"urn": "",
+		"src": "subdoc",
+		"status": "Not migrated - No CTS URN",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.04.0100",
+		"sub": [
+			"orator=Lysias",
+			"speech=13"
+		],
+		"urn": "",
+		"src": "subdoc",
+		"status": "Not migrated - No CTS URN",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.04.0100",
+		"sub": [
+			"orator=Lysias",
+			"speech=16"
+		],
+		"urn": "",
+		"src": "subdoc",
+		"status": "Not migrated - No CTS URN",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.04.0100",
+		"sub": [
+			"orator=Lysias",
+			"speech=23"
+		],
+		"urn": "",
+		"src": "subdoc",
+		"status": "Not migrated - No CTS URN",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.04.0100",
+		"sub": [
+			"orator=Lysias",
+			"speech=24"
+		],
+		"urn": "",
+		"src": "subdoc",
+		"status": "Not migrated - No CTS URN",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.04.0100",
+		"sub": [
+			"orator=Lysias",
+			"speech=33"
+		],
+		"urn": "",
+		"src": "subdoc",
+		"status": "Not migrated - No CTS URN",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.04.0100",
+		"sub": [
+			"orator=Lysias",
+			"speech=34"
+		],
+		"urn": "",
+		"src": "subdoc",
+		"status": "Not migrated - No CTS URN",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.04.0100",
+		"sub": [
+			"orator=Lysias",
+			"speech=7"
+		],
+		"urn": "",
+		"src": "subdoc",
+		"status": "Not migrated - No CTS URN",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.04.0101",
+		"sub": [],
+		"urn": "",
+		"src": "CVS:/texts/Classics/Pindar/opensource/gildersleeve_eng.xml",
+		"status": "Not migrated - Composite doc",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.04.0101",
+		"sub": [
+			"text=comm",
+			"book=O."
+		],
+		"urn": "",
+		"src": "subdoc",
+		"status": "Not migrated - No CTS URN",
+		"target": "",
+		"inv": "",
+		"note": ""
+	},
+	{
+		"id": "1999.04.0101",
+		"sub": [
+			"text=comm",
+			"book=P."
+		],
+		"urn": "",
+		"src": "subdoc",
+		"status": "Not migrated - No CTS URN",
+		"target": "",
+		"inv": "",
+		"note": ""
+	}
+]
