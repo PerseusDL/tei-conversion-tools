@@ -131,6 +131,7 @@ def fixProblems(example:LegacyPerseusText) = {
     val fixed = example.easyEpidocFixes
     val fullyUni = html2uni(fixed)
     val epiXml = epiDocTEI(fullyUni)
+    //FIX THIS WHOLE REVISION DESC TRACKING BUSINESS, AND MAKE SURE XML:XML:LANG STOPS HAPPENING
     val editorialRecord = trackChanges(epiXml, example.who, example.what, example.when)
     //end of corrections
     val wrt =  new PrintWriter(p)
@@ -140,7 +141,7 @@ def fixProblems(example:LegacyPerseusText) = {
   }else{
     print(example.filePath + " doesn't exist")}} 
 
-val test = new LegacyPerseusText("tlg0007.tlg023.perseus-eng1", "greekLit/tlg0007/tlg023/tlg0007.tlg023.perseus-eng1.xml","Stella Dee","testing","2015")
+val test = new LegacyPerseusText("tlg0007.tlg092.perseus-eng1", "canonical-greekLit/data/tlg0007/tlg092/tlg0007.tlg092.perseus-eng1.xml","Stella Dee","converted to EpiDoc","2015")
 
 //uncomment next line to run
 //fixProblems(test)
