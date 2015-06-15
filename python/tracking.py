@@ -11,13 +11,39 @@ import subprocess
 from subprocess import call
 from subprocess import Popen, PIPE
 import shlex
+import codecs
 
 # urns in form urn:cts:greekLit:tlg0028.tlg004.perseus-eng1
 
 def urn2filepath(urn):
 	parts = urn.split(":")
-	filepath = "canonical-"+ parts[2] + "/data/"+ parts[3].split(".")[0] + "/" + parts[3].split(".")[1] + "/" + parts[3] +".xml"
-	return filepath
+	try:
+		filepath = "canonical-"+ parts[2] + "/data/"+ parts[3].split(".")[0] + "/" + parts[3].split(".")[1] + "/" + parts[3] +".xml"
+		return filepath
+	except IndexError:
+		pass
+
+def filepath2urn(fpath):
+	parts = fpath.split("/")
+	try:
+		urn = "urn:cts:" + parts[0].split("-")[1] + ":" + parts[4].split(".xml")[0]
+		return urn
+	except IndexError:
+		pass
+
+def check_filepath_urnability(fpath):
+	try:
+		urn2filepath(filepath2urn(fpath))
+		return True
+	except AttributeError:
+		return False
+
+def check_urn_filepathability(urn):
+	try:
+		filepath2urn(urn2filepath(urn))
+		return True
+	except AttributeError:
+		return False
 
 def list_files(dirList):
 	files = []
@@ -53,7 +79,7 @@ def check_epidoc(urn):
 		try:
 			outs, errs = p.communicate(timeout=15)
 		except subprocess.TimeoutExpired:
-			proc.kill()
+			p.kill()
 			outs, errs = p.communicate()
 		if str(outs) == "b''":
 			return True
@@ -61,10 +87,29 @@ def check_epidoc(urn):
 			return False
 	else:
 		return "File does not exist"
-		
+
+def check_unicode(urn):
+	fpath = urn2filepath(urn)
+	try:
+		f = codecs.open(fpath, encoding='utf-8', errors='strict')
+		for line in f:
+			pass
+		return True
+	except UnicodeDecodeError:
+		return False
+
+def check_xml_validity(urn):
+	fpath = urn2filepath(urn)
+	if os.path.exists(fpath):
+		try:
+			ET.parse(fpath)
+			return True
+		except ET.XMLSyntaxError:
+			return False
 
 #def check_breathmarks(f):
 	#Is there a way to actually do this? need to ask Frederik and Giuseppe
+
 
 #doesn't check the validity of metadata file
 def check_cts_metadata(urn):
@@ -81,9 +126,54 @@ def check_cts_metadata(urn):
 	else:
 		return False
 
-#need to add tests for unicode etc
+#add field for catalog data link?
 
-def edit_json(
+def build_new_json(
+    data,
+    urn,
+    ):
+        data[urn]['status'] = 'migrated'
+        data[urn]['has_cts_metadata'] = check_cts_metadata(urn)
+        data[urn]['has_cts_refsDecl'] = check_refsDecl(urn)
+        data[urn]['epidoc_compliant'] = check_epidoc(urn)
+        data[urn]['valid_xml'] = check_xml_validity(urn)
+        data[urn]['fully_unicode'] = check_unicode(urn)
+
+
+#change editor to last listed in revisionDesc?
+#add in a timer? to see what's taking so long?
+#add in JSON formatting?
+
+def build_tracking_json_fromfiles(editor, repoList):
+	files = list_files(repoList)
+	data = {}
+	urns = []
+	valid_urns = []
+	for f in files:
+		if (check_filepath_urnability(f) == True):
+			urns.append(filepath2urn(f))
+	for urn in urns:
+		if (check_urn_filepathability(urn)== True):
+			if "pack" not in urn:
+				valid_urns.append(urn)
+	for urn in valid_urns:
+		data[urn] = {}
+		data[urn]["last_editor"] = editor
+		data[urn]["git_repo"] = (urn2filepath(urn)).split("/")[0]
+		data[urn]["target"] = (urn2filepath(urn))
+		build_new_json(data, urn)
+		print("updated " + urn)
+	with open("-".join(repoList) + "-tracking.json","w") as outfile:
+		json.dump(data, outfile)
+
+#build_tracking_json_fromfiles("Stella Dee", ["canonical-greekLit"])
+
+
+"""	
+
+#def update_tracking_json_singlefile(editor, urn, note):
+
+def edit_premade_json(
     data,
     key,
     filepath,
@@ -98,14 +188,15 @@ def edit_json(
         data[key]['has_cts_metadata'] = check_cts_metadata(str(data[key]['urn']))
         data[key]['has_cts_refsDecl'] = check_refsDecl(str(data[key]['urn']))
         data[key]['epidoc_compliant'] = check_epidoc(str(data[key]['urn']))
+        data[key]['valid_xml'] = check_xml_validity(str(data[key]['urn']))
     else:
         data[key]['status'] = 'not-migrated'
         data[key]['git_repo'] = ''
         data[key]['has_cts_metadata'] = False
         data[key]['has_cts_refsDecl'] = False
-        data[key]['epidoc_compliant'] = False		
+        data[key]['epidoc_compliant'] = False	
 
-def update_tracking_json(editor, repoList, trackingFile):
+def port_p4top5(editor, repoList):
 	files = list_files(repoList)
 	with open(trackingFile, "r+") as data_file:    
     	data = json.load(data_file)
@@ -122,11 +213,8 @@ def update_tracking_json(editor, repoList, trackingFile):
     				filepath = urn2filepath(str(l["urn"]))
     				edit_json(data,str(l["urn"]), filepath, files, editor)
     			
-
-
 #e.g. update_tracking_json("Dee", ["canonical-greekLit","canonical-latinLit"], "tei-conversion-tools/summary_data/p4top5.json" )
 
-			
-			
-			
+"""
+
 			
