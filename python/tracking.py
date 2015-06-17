@@ -63,7 +63,8 @@ def list_tracking_files(dirList):
 				files.append(os.path.join(root,filename))
 	for f in files:
 		if "tracking" in f:
-			tracking_files.append(f)
+			if len(f.split("/")) > 2:
+				tracking_files.append(f)
 	return tracking_files
 
 # def check_unicode(f):
@@ -181,29 +182,33 @@ def build_tracking_json_fromfiles(editor, repoList):
 		print("updated " + urn)
 		tracking_fpath = urn2filepath(urn).split(".xml")[0] + ".tracking.json"
 		with open(tracking_fpath,"w") as outfile:
-			json.dump(data[urn], outfile)
+			json.dump(data[urn], outfile, sort_keys=True, indent=4)
 		outfile.close()
 	print("Completed successfully!")
 
 #build_tracking_json_fromfiles("Stella Dee", ["canonical-greekLit"])
+#figure out what's breaking with canonical-latinLit/data/phi0969/phi001/phi0969.phi001.perseus-lat1.xml
 
 #MAKE JSON PRETTY!!!
 #test!!!
 def gather_tracking_json_fromrepo(repoList):
-	files = list_tracking_files(repoList)
-	data = {}
-	for fpath in files:
-		with open(fpath, "r") as f:
-			text = f.read()
-			filepath = ("/").join(fpath.split("/")[:4]) + "/"+ fpath.split("/")[4].split(".tracking.json")[0] + ".xml"
-			urn = filepath2urn(filepath)
-			data[urn] = text
-			print("adding"+ urn)
-		f.close()
-	with open("-".join(repoList) + ".tracking.json", "w") as outfile:
-			json.dump(data, outfile)
-			print("completed successfully! resulting file is " + "-".join(repoList) + ".tracking.json")
-	outfile.close()
+	for repo in repoList:
+		files = list_tracking_files([repo])
+		data = {}
+		for fpath in files:
+			with open(fpath, "r") as f:
+				text = f.read()
+				filepath = ("/").join(fpath.split("/")[:4]) + "/"+ fpath.split("/")[4].split(".tracking.json")[0] + ".xml"
+				urn = filepath2urn(filepath)
+				data[urn] = json.loads(text)
+				print("adding "+ urn)
+				f.close()
+		with open(repo + "/" + repo+".tracking.json", "w") as outfile:
+				json.dump(data, outfile,sort_keys=True, indent=4)
+				print("completed successfully! resulting file is " + repo + "/" + repo+".tracking.json")
+		outfile.close()
+
+#gather_tracking_json_fromrepo(["canonical-greekLit"])
 
 #make "note" optional?
 #test!!!!
@@ -219,7 +224,7 @@ def update_singlefile_trackingjson(editor, urn, note):
 		print("updated " + urn)
 		tracking_fpath = urn2filepath(urn).split(".xml")[0] + ".tracking.json"
 		with open(tracking_fpath,"w") as outfile:
-			json.dump(data[urn], outfile)
+			json.dump(data[urn], outfile,sort_keys=True, indent=4)
 		outfile.close()
 		print("Completed successfully!")
 	else:
