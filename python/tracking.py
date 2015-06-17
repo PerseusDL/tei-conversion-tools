@@ -53,6 +53,19 @@ def list_files(dirList):
 				files.append(os.path.join(root,filename))
 	return files
 
+#test this
+def list_tracking_files(dirList):
+	files = []
+	tracking_files = []
+	for repo in dirList:
+		for root, dirnames, filenames in os.walk(repo):
+			for filename in filenames:
+				files.append(os.path.join(root,filename))
+	for f in files:
+		if "tracking" in f:
+			tracking_files.append(f)
+	return tracking_files
+
 # def check_unicode(f):
 
 def check_refsDecl(urn):
@@ -95,6 +108,7 @@ def check_unicode(urn):
 		for line in f:
 			pass
 		return True
+		f.close()
 	except UnicodeDecodeError:
 		return False
 
@@ -104,6 +118,7 @@ def check_xml_validity(urn):
 		try:
 			ET.parse(fpath)
 			return True
+			fpath.close()
 		except ET.XMLSyntaxError:
 			return False
 
@@ -123,6 +138,7 @@ def check_cts_metadata(urn):
 				return True
 			else:
 				return False
+			f.close()
 	else:
 		return False
 
@@ -163,10 +179,51 @@ def build_tracking_json_fromfiles(editor, repoList):
 		data[urn]["target"] = (urn2filepath(urn))
 		build_new_json(data, urn)
 		print("updated " + urn)
-	with open("-".join(repoList) + "-tracking.json","w") as outfile:
-		json.dump(data, outfile)
+		tracking_fpath = urn2filepath(urn).split(".xml")[0] + ".tracking.json"
+		with open(tracking_fpath,"w") as outfile:
+			json.dump(data[urn], outfile)
+		outfile.close()
+	print("Completed successfully!")
 
 #build_tracking_json_fromfiles("Stella Dee", ["canonical-greekLit"])
+
+#MAKE JSON PRETTY!!!
+#test!!!
+def gather_tracking_json_fromrepo(repoList):
+	files = list_tracking_files(repoList)
+	data = {}
+	for fpath in files:
+		with open(fpath, "r") as f:
+			text = f.read()
+			filepath = ("/").join(fpath.split("/")[:4]) + "/"+ fpath.split("/")[4].split(".tracking.json")[0] + ".xml"
+			urn = filepath2urn(filepath)
+			data[urn] = text
+			print("adding"+ urn)
+		f.close()
+	with open("-".join(repoList) + ".tracking.json", "w") as outfile:
+			json.dump(data, outfile)
+			print("completed successfully! resulting file is " + "-".join(repoList) + ".tracking.json")
+	outfile.close()
+
+#make "note" optional?
+#test!!!!
+def update_singlefile_trackingjson(editor, urn, note):
+	if (check_urn_filepathability(urn)== True):
+		data = {}
+		data[urn] = {}
+		data[urn]["last_editor"] = editor
+		data[urn]["git_repo"] = (urn2filepath(urn)).split("/")[0]
+		data[urn]["target"] = (urn2filepath(urn))
+		data[urn]["note"] = note
+		build_new_json(data, urn)
+		print("updated " + urn)
+		tracking_fpath = urn2filepath(urn).split(".xml")[0] + ".tracking.json"
+		with open(tracking_fpath,"w") as outfile:
+			json.dump(data[urn], outfile)
+		outfile.close()
+		print("Completed successfully!")
+	else:
+		print("filepath does not exist")
 
 
 """	
