@@ -1,0 +1,5542 @@
+{
+    "1999.02.0004:text=comm": {
+        "id": "1999.02.0004", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Catullus/opensource/merrill.cat_eng.xml", 
+            "subdoc", 
+            [
+                "text=comm"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "text=comm"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0050": {
+        "id": "1999.02.0050", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Vergil/opensource/c.verg.aen1_eng.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0051": {
+        "id": "1999.02.0051", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Vergil/opensource/c.verg.aen2_eng.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0053": {
+        "id": "1999.02.0053", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Vergil/opensource/serv.verg.aen_lat.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0060:book=Ezra": {
+        "id": "1999.02.0060", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/NewTestament/vulgate_lat.xml", 
+            "subdoc", 
+            [
+                "book=Ezra"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=Ezra"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0060:book=Nehemiah": {
+        "id": "1999.02.0060", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/NewTestament/vulgate_lat.xml", 
+            "subdoc", 
+            [
+                "book=Nehemiah"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=Nehemiah"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0060:book=Prayer of Manasseh": {
+        "id": "1999.02.0060", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/NewTestament/vulgate_lat.xml", 
+            "subdoc", 
+            [
+                "book=Prayer of Manasseh"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=Prayer of Manasseh"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0070:text=comm": {
+        "id": "1999.02.0070", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Sulpicia/copyright/sulpicia_lat.xml", 
+            "subdoc", 
+            [
+                "text=comm"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "text=comm"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0122": {
+        "id": "1999.02.0122", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Boethius/copyright/consolatiocomm.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0129": {
+        "id": "1999.02.0129", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Glass/opensource/washington.bio_lat.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0135": {
+        "id": "1999.02.0135", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/sdl/Latin/Bede/bede.hega_lat.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0140:book=41s": {
+        "id": "1999.02.0140", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/Livy/livy.teub41-45.xml", 
+            "subdoc", 
+            [
+                "book=41s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=41s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0140:book=42s": {
+        "id": "1999.02.0140", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/Livy/livy.teub41-45.xml", 
+            "subdoc", 
+            [
+                "book=42s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=42s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0140:book=43s": {
+        "id": "1999.02.0140", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/Livy/livy.teub41-45.xml", 
+            "subdoc", 
+            [
+                "book=43s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=43s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0140:book=44s": {
+        "id": "1999.02.0140", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/Livy/livy.teub41-45.xml", 
+            "subdoc", 
+            [
+                "book=44s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=44s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0140:book=45s": {
+        "id": "1999.02.0140", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/Livy/livy.teub41-45.xml", 
+            "subdoc", 
+            [
+                "book=45s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=45s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0146": {
+        "id": "1999.02.0146", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Livy/opensource/livy.teub.appcrit.frag.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0150": {
+        "id": "1999.02.0150", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Livy/opensource/livy_bohn.perioch.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0151:book=1s": {
+        "id": "1999.02.0151", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Livy/opensource/livy.foster01-02.xml", 
+            "subdoc", 
+            [
+                "book=1s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=1s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0151:book=2s": {
+        "id": "1999.02.0151", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Livy/opensource/livy.foster01-02.xml", 
+            "subdoc", 
+            [
+                "book=2s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=2s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0152:book=21s": {
+        "id": "1999.02.0152", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Livy/opensource/livy.foster21-22.xml", 
+            "subdoc", 
+            [
+                "book=21s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=21s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0152:book=22s": {
+        "id": "1999.02.0152", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Livy/opensource/livy.foster21-22.xml", 
+            "subdoc", 
+            [
+                "book=22s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=22s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0153:book=3s": {
+        "id": "1999.02.0153", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Livy/opensource/livy.foster03-04.xml", 
+            "subdoc", 
+            [
+                "book=3s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=3s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0153:book=4s": {
+        "id": "1999.02.0153", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Livy/opensource/livy.foster03-04.xml", 
+            "subdoc", 
+            [
+                "book=4s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=4s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0154:book=5s": {
+        "id": "1999.02.0154", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Livy/opensource/livy.foster05-07.xml", 
+            "subdoc", 
+            [
+                "book=5s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=5s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0154:book=6s": {
+        "id": "1999.02.0154", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Livy/opensource/livy.foster05-07.xml", 
+            "subdoc", 
+            [
+                "book=6s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=6s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0154:book=7s": {
+        "id": "1999.02.0154", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Livy/opensource/livy.foster05-07.xml", 
+            "subdoc", 
+            [
+                "book=7s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=7s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0155:book=10s": {
+        "id": "1999.02.0155", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Livy/opensource/livy.foster08-10.xml", 
+            "subdoc", 
+            [
+                "book=10s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=10s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0155:book=8s": {
+        "id": "1999.02.0155", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Livy/opensource/livy.foster08-10.xml", 
+            "subdoc", 
+            [
+                "book=8s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=8s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0155:book=9s": {
+        "id": "1999.02.0155", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Livy/opensource/livy.foster08-10.xml", 
+            "subdoc", 
+            [
+                "book=9s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=9s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0156:book=10s": {
+        "id": "1999.02.0156", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/Livy/alteds/livy.foster08-10_lat.xml", 
+            "subdoc", 
+            [
+                "book=10s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=10s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0156:book=8s": {
+        "id": "1999.02.0156", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/Livy/alteds/livy.foster08-10_lat.xml", 
+            "subdoc", 
+            [
+                "book=8s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=8s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0156:book=9s": {
+        "id": "1999.02.0156", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/Livy/alteds/livy.foster08-10_lat.xml", 
+            "subdoc", 
+            [
+                "book=9s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=9s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0157:book=23s": {
+        "id": "1999.02.0157", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Livy/opensource/livy.moore23-25.xml", 
+            "subdoc", 
+            [
+                "book=23s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=23s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0157:book=24s": {
+        "id": "1999.02.0157", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Livy/opensource/livy.moore23-25.xml", 
+            "subdoc", 
+            [
+                "book=24s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=24s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0157:book=25s": {
+        "id": "1999.02.0157", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Livy/opensource/livy.moore23-25.xml", 
+            "subdoc", 
+            [
+                "book=25s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=25s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0158:book=26s": {
+        "id": "1999.02.0158", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Livy/opensource/livy.moore26-27.xml", 
+            "subdoc", 
+            [
+                "book=26s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=26s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0158:book=27s": {
+        "id": "1999.02.0158", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Livy/opensource/livy.moore26-27.xml", 
+            "subdoc", 
+            [
+                "book=27s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=27s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0159:book=28s": {
+        "id": "1999.02.0159", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Livy/opensource/livy.moore28-30.xml", 
+            "subdoc", 
+            [
+                "book=28s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=28s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0159:book=29s": {
+        "id": "1999.02.0159", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Livy/opensource/livy.moore28-30.xml", 
+            "subdoc", 
+            [
+                "book=29s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=29s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0159:book=30s": {
+        "id": "1999.02.0159", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Livy/opensource/livy.moore28-30.xml", 
+            "subdoc", 
+            [
+                "book=30s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=30s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0164:book=31s": {
+        "id": "1999.02.0164", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Livy/opensource/livy.sage31-34.xml", 
+            "subdoc", 
+            [
+                "book=31s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=31s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0164:book=32s": {
+        "id": "1999.02.0164", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Livy/opensource/livy.sage31-34.xml", 
+            "subdoc", 
+            [
+                "book=32s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=32s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0164:book=33s": {
+        "id": "1999.02.0164", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Livy/opensource/livy.sage31-34.xml", 
+            "subdoc", 
+            [
+                "book=33s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=33s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0164:book=34s": {
+        "id": "1999.02.0164", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Livy/opensource/livy.sage31-34.xml", 
+            "subdoc", 
+            [
+                "book=34s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=34s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0165:book=35s": {
+        "id": "1999.02.0165", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Livy/opensource/livy.sage35-37.xml", 
+            "subdoc", 
+            [
+                "book=35s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=35s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0165:book=36s": {
+        "id": "1999.02.0165", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Livy/opensource/livy.sage35-37.xml", 
+            "subdoc", 
+            [
+                "book=36s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=36s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0165:book=37s": {
+        "id": "1999.02.0165", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Livy/opensource/livy.sage35-37.xml", 
+            "subdoc", 
+            [
+                "book=37s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=37s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0166:book=38s": {
+        "id": "1999.02.0166", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Livy/opensource/livy.sage38-39.xml", 
+            "subdoc", 
+            [
+                "book=38s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=38s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0166:book=39s": {
+        "id": "1999.02.0166", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Livy/opensource/livy.sage38-39.xml", 
+            "subdoc", 
+            [
+                "book=39s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=39s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0167:book=40s": {
+        "id": "1999.02.0167", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Livy/opensource/livy.sage40-42.xml", 
+            "subdoc", 
+            [
+                "book=40s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=40s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0167:book=41s": {
+        "id": "1999.02.0167", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Livy/opensource/livy.sage40-42.xml", 
+            "subdoc", 
+            [
+                "book=41s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=41s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0167:book=42s": {
+        "id": "1999.02.0167", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Livy/opensource/livy.sage40-42.xml", 
+            "subdoc", 
+            [
+                "book=42s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=42s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0168:book=43s": {
+        "id": "1999.02.0168", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Livy/opensource/livy.schles43-45.xml", 
+            "subdoc", 
+            [
+                "book=43s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=43s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0168:book=44s": {
+        "id": "1999.02.0168", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Livy/opensource/livy.schles43-45.xml", 
+            "subdoc", 
+            [
+                "book=44s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=44s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0168:book=45s": {
+        "id": "1999.02.0168", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Livy/opensource/livy.schles43-45.xml", 
+            "subdoc", 
+            [
+                "book=45s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=45s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0169:book=10s": {
+        "id": "1999.02.0169", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/Livy/livy.teub01-10.xml", 
+            "subdoc", 
+            [
+                "book=10s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=10s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0169:book=1s": {
+        "id": "1999.02.0169", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/Livy/livy.teub01-10.xml", 
+            "subdoc", 
+            [
+                "book=1s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=1s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0169:book=2s": {
+        "id": "1999.02.0169", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/Livy/livy.teub01-10.xml", 
+            "subdoc", 
+            [
+                "book=2s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=2s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0169:book=3s": {
+        "id": "1999.02.0169", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/Livy/livy.teub01-10.xml", 
+            "subdoc", 
+            [
+                "book=3s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=3s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0169:book=4s": {
+        "id": "1999.02.0169", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/Livy/livy.teub01-10.xml", 
+            "subdoc", 
+            [
+                "book=4s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=4s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0169:book=5s": {
+        "id": "1999.02.0169", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/Livy/livy.teub01-10.xml", 
+            "subdoc", 
+            [
+                "book=5s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=5s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0169:book=6s": {
+        "id": "1999.02.0169", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/Livy/livy.teub01-10.xml", 
+            "subdoc", 
+            [
+                "book=6s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=6s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0169:book=7s": {
+        "id": "1999.02.0169", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/Livy/livy.teub01-10.xml", 
+            "subdoc", 
+            [
+                "book=7s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=7s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0169:book=8s": {
+        "id": "1999.02.0169", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/Livy/livy.teub01-10.xml", 
+            "subdoc", 
+            [
+                "book=8s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=8s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0169:book=9s": {
+        "id": "1999.02.0169", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/Livy/livy.teub01-10.xml", 
+            "subdoc", 
+            [
+                "book=9s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=9s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0170:book=21s": {
+        "id": "1999.02.0170", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/Livy/livy.teub21-30.xml", 
+            "subdoc", 
+            [
+                "book=21s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=21s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0170:book=22s": {
+        "id": "1999.02.0170", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/Livy/livy.teub21-30.xml", 
+            "subdoc", 
+            [
+                "book=22s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=22s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0170:book=23s": {
+        "id": "1999.02.0170", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/Livy/livy.teub21-30.xml", 
+            "subdoc", 
+            [
+                "book=23s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=23s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0170:book=24s": {
+        "id": "1999.02.0170", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/Livy/livy.teub21-30.xml", 
+            "subdoc", 
+            [
+                "book=24s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=24s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0170:book=25s": {
+        "id": "1999.02.0170", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/Livy/livy.teub21-30.xml", 
+            "subdoc", 
+            [
+                "book=25s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=25s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0170:book=26s": {
+        "id": "1999.02.0170", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/Livy/livy.teub21-30.xml", 
+            "subdoc", 
+            [
+                "book=26s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=26s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0170:book=27s": {
+        "id": "1999.02.0170", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/Livy/livy.teub21-30.xml", 
+            "subdoc", 
+            [
+                "book=27s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=27s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0170:book=28s": {
+        "id": "1999.02.0170", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/Livy/livy.teub21-30.xml", 
+            "subdoc", 
+            [
+                "book=28s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=28s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0170:book=29s": {
+        "id": "1999.02.0170", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/Livy/livy.teub21-30.xml", 
+            "subdoc", 
+            [
+                "book=29s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=29s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0170:book=30s": {
+        "id": "1999.02.0170", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/Livy/livy.teub21-30.xml", 
+            "subdoc", 
+            [
+                "book=30s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=30s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0171": {
+        "id": "1999.02.0171", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Livy/opensource/livy.teub.appcrit.21-30.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0172:book=31s": {
+        "id": "1999.02.0172", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/Livy/livy.teub31-38.xml", 
+            "subdoc", 
+            [
+                "book=31s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=31s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0172:book=32s": {
+        "id": "1999.02.0172", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/Livy/livy.teub31-38.xml", 
+            "subdoc", 
+            [
+                "book=32s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=32s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0172:book=33s": {
+        "id": "1999.02.0172", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/Livy/livy.teub31-38.xml", 
+            "subdoc", 
+            [
+                "book=33s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=33s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0172:book=34s": {
+        "id": "1999.02.0172", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/Livy/livy.teub31-38.xml", 
+            "subdoc", 
+            [
+                "book=34s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=34s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0172:book=35s": {
+        "id": "1999.02.0172", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/Livy/livy.teub31-38.xml", 
+            "subdoc", 
+            [
+                "book=35s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=35s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0172:book=36s": {
+        "id": "1999.02.0172", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/Livy/livy.teub31-38.xml", 
+            "subdoc", 
+            [
+                "book=36s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=36s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0172:book=37s": {
+        "id": "1999.02.0172", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/Livy/livy.teub31-38.xml", 
+            "subdoc", 
+            [
+                "book=37s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=37s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0172:book=38s": {
+        "id": "1999.02.0172", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/Livy/livy.teub31-38.xml", 
+            "subdoc", 
+            [
+                "book=38s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=38s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0173": {
+        "id": "1999.02.0173", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Livy/opensource/livy.teub.appcrit.31-38.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0174:book=39s": {
+        "id": "1999.02.0174", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/Livy/livy.teub39-40.xml", 
+            "subdoc", 
+            [
+                "book=39s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=39s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0174:book=40s": {
+        "id": "1999.02.0174", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/Livy/livy.teub39-40.xml", 
+            "subdoc", 
+            [
+                "book=40s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=40s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0175": {
+        "id": "1999.02.0175", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Livy/opensource/livy.teub.appcrit.39-40.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0183": {
+        "id": "1999.02.0183", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Livy/opensource/livy.weiss.appcrit.31-32.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0184": {
+        "id": "1999.02.0184", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Livy/opensource/livy.weiss.appcrit.33-34.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0185": {
+        "id": "1999.02.0185", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Livy/opensource/livy.weiss.appcrit.35-38.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0186": {
+        "id": "1999.02.0186", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Livy/opensource/livy.weiss.appcrit.39-40.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0187": {
+        "id": "1999.02.0187", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Livy/opensource/livy.weiss.appcrit.41-42.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0188": {
+        "id": "1999.02.0188", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Livy/opensource/livy.weiss.appcrit.43-44.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0189": {
+        "id": "1999.02.0189", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Livy/opensource/livy.weiss.appcrit.45.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0190": {
+        "id": "1999.02.0190", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Livy/opensource/livy.weisscomm31-32.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0191": {
+        "id": "1999.02.0191", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Livy/opensource/livy.weisscomm33-34.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0192": {
+        "id": "1999.02.0192", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Livy/opensource/livy.weisscomm35-38.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0193": {
+        "id": "1999.02.0193", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Livy/opensource/livy.weisscomm39-40.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0194": {
+        "id": "1999.02.0194", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Livy/opensource/livy.weisscomm41-42.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0195": {
+        "id": "1999.02.0195", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Livy/opensource/livy.weisscomm43-44.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0196": {
+        "id": "1999.02.0196", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Livy/opensource/livy.weisscomm45.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0198": {
+        "id": "1999.02.0198", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Livy/opensource/livy.teub.index.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0199:book=1s": {
+        "id": "1999.02.0199", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/Livy/alteds/livy.foster01-02_lat.xml", 
+            "subdoc", 
+            [
+                "book=1s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=1s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0199:book=2s": {
+        "id": "1999.02.0199", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/Livy/alteds/livy.foster01-02_lat.xml", 
+            "subdoc", 
+            [
+                "book=2s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=2s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0200:book=21s": {
+        "id": "1999.02.0200", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/Livy/alteds/livy.foster21-22_lat.xml", 
+            "subdoc", 
+            [
+                "book=21s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=21s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0200:book=22s": {
+        "id": "1999.02.0200", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/Livy/alteds/livy.foster21-22_lat.xml", 
+            "subdoc", 
+            [
+                "book=22s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=22s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0201:book=3s": {
+        "id": "1999.02.0201", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/Livy/alteds/livy.foster03-04_lat.xml", 
+            "subdoc", 
+            [
+                "book=3s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=3s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0201:book=4s": {
+        "id": "1999.02.0201", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/Livy/alteds/livy.foster03-04_lat.xml", 
+            "subdoc", 
+            [
+                "book=4s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=4s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0202:book=5s": {
+        "id": "1999.02.0202", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/Livy/alteds/livy.foster05-07_lat.xml", 
+            "subdoc", 
+            [
+                "book=5s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=5s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0202:book=6s": {
+        "id": "1999.02.0202", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/Livy/alteds/livy.foster05-07_lat.xml", 
+            "subdoc", 
+            [
+                "book=6s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=6s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0202:book=7s": {
+        "id": "1999.02.0202", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/Livy/alteds/livy.foster05-07_lat.xml", 
+            "subdoc", 
+            [
+                "book=7s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=7s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0204:book=23s": {
+        "id": "1999.02.0204", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/Livy/alteds/livy.moore23-25_lat.xml", 
+            "subdoc", 
+            [
+                "book=23s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=23s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0204:book=24s": {
+        "id": "1999.02.0204", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/Livy/alteds/livy.moore23-25_lat.xml", 
+            "subdoc", 
+            [
+                "book=24s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=24s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0204:book=25s": {
+        "id": "1999.02.0204", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/Livy/alteds/livy.moore23-25_lat.xml", 
+            "subdoc", 
+            [
+                "book=25s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=25s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0205:book=26s": {
+        "id": "1999.02.0205", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/Livy/alteds/livy.moore26-27_lat.xml", 
+            "subdoc", 
+            [
+                "book=26s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=26s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0205:book=27s": {
+        "id": "1999.02.0205", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/Livy/alteds/livy.moore26-27_lat.xml", 
+            "subdoc", 
+            [
+                "book=27s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=27s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0206:book=28s": {
+        "id": "1999.02.0206", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/Livy/alteds/livy.moore28-30_lat.xml", 
+            "subdoc", 
+            [
+                "book=28s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=28s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0206:book=29s": {
+        "id": "1999.02.0206", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/Livy/alteds/livy.moore28-30_lat.xml", 
+            "subdoc", 
+            [
+                "book=29s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=29s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0206:book=30s": {
+        "id": "1999.02.0206", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/Livy/alteds/livy.moore28-30_lat.xml", 
+            "subdoc", 
+            [
+                "book=30s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=30s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0207:book=31s": {
+        "id": "1999.02.0207", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/Livy/alteds/livy.sage31-34_lat.xml", 
+            "subdoc", 
+            [
+                "book=31s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=31s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0207:book=32s": {
+        "id": "1999.02.0207", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/Livy/alteds/livy.sage31-34_lat.xml", 
+            "subdoc", 
+            [
+                "book=32s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=32s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0207:book=33s": {
+        "id": "1999.02.0207", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/Livy/alteds/livy.sage31-34_lat.xml", 
+            "subdoc", 
+            [
+                "book=33s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=33s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0207:book=34s": {
+        "id": "1999.02.0207", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/Livy/alteds/livy.sage31-34_lat.xml", 
+            "subdoc", 
+            [
+                "book=34s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=34s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0208:book=35s": {
+        "id": "1999.02.0208", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/Livy/alteds/livy.sage35-37_lat.xml", 
+            "subdoc", 
+            [
+                "book=35s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=35s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0208:book=36s": {
+        "id": "1999.02.0208", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/Livy/alteds/livy.sage35-37_lat.xml", 
+            "subdoc", 
+            [
+                "book=36s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=36s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0208:book=37s": {
+        "id": "1999.02.0208", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/Livy/alteds/livy.sage35-37_lat.xml", 
+            "subdoc", 
+            [
+                "book=37s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=37s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0209:book=38s": {
+        "id": "1999.02.0209", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/Livy/alteds/livy.sage38-39_lat.xml", 
+            "subdoc", 
+            [
+                "book=38s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=38s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0209:book=39s": {
+        "id": "1999.02.0209", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/Livy/alteds/livy.sage38-39_lat.xml", 
+            "subdoc", 
+            [
+                "book=39s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=39s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0210:book=40s": {
+        "id": "1999.02.0210", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/Livy/alteds/livy.sage40-42_lat.xml", 
+            "subdoc", 
+            [
+                "book=40s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=40s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0210:book=41s": {
+        "id": "1999.02.0210", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/Livy/alteds/livy.sage40-42_lat.xml", 
+            "subdoc", 
+            [
+                "book=41s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=41s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0210:book=42s": {
+        "id": "1999.02.0210", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/Livy/alteds/livy.sage40-42_lat.xml", 
+            "subdoc", 
+            [
+                "book=42s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=42s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0211:book=43s": {
+        "id": "1999.02.0211", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/Livy/alteds/livy.schles43-45_lat.xml", 
+            "subdoc", 
+            [
+                "book=43s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=43s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0211:book=44s": {
+        "id": "1999.02.0211", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/Livy/alteds/livy.schles43-45_lat.xml", 
+            "subdoc", 
+            [
+                "book=44s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=44s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0211:book=45s": {
+        "id": "1999.02.0211", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/sdl/Latin/Livy/alteds/livy.schles43-45_lat.xml", 
+            "subdoc", 
+            [
+                "book=45s"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "book=45s"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0212": {
+        "id": "1999.02.0212", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Livy/opensource/livy.teub.appcrit.01-10.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.02.0213": {
+        "id": "1999.02.0213", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Livy/opensource/livy.teub.appcrit.41-45.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0001": {
+        "id": "1999.04.0001", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Allen_and_Greenough/copyright/ag.gram_eng.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0002": {
+        "id": "1999.04.0002", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Boegehold/copyright/boegehold.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0003": {
+        "id": "1999.04.0003", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/CB/copyright/cb.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0004": {
+        "id": "1999.04.0004", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/sdl/indices/PersEnc/encyclopedia.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0005": {
+        "id": "1999.04.0005", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Lawton/copyright/lawton.adr.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0006": {
+        "id": "1999.04.0006", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/PECS/copyright/pecs.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0007": {
+        "id": "1999.04.0007", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Smyth/copyright/smyth_eng.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0008": {
+        "id": "1999.04.0008", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Stewart/copyright/sculptors.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0009": {
+        "id": "1999.04.0009", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Thomas_Martin/copyright/trm.ov.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0010": {
+        "id": "1999.04.0010", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Vase_Painters/copyright/vp.ach.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0011": {
+        "id": "1999.04.0011", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Vase_Painters/copyright/vp.douris.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0012": {
+        "id": "1999.04.0012", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Vase_Painters/copyright/vp.harrow.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0013": {
+        "id": "1999.04.0013", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Vase_Painters/copyright/vp.kleo.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0014": {
+        "id": "1999.04.0014", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Vase_Painters/copyright/vp.pe.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0015": {
+        "id": "1999.04.0015", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Vase_Painters/copyright/vp.poly.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0016": {
+        "id": "1999.04.0016", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Sophocles/opensource/jebb.soph.ot_eng.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0017:text=comm": {
+        "id": "1999.04.0017", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Caesar/opensource/ag.caes.bg_eng.xml", 
+            "subdoc", 
+            [
+                "text=comm"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "text=comm"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0018:text=comm": {
+        "id": "1999.04.0018", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Sophocles/opensource/jebb.soph.oc_eng.xml", 
+            "subdoc", 
+            [
+                "text=comm"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "text=comm"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0019": {
+        "id": "1999.04.0019", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/KG/copyright/kg.gram1_ger.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0020": {
+        "id": "1999.04.0020", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/KG/copyright/kg.gram2_ger.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0021": {
+        "id": "1999.04.0021", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/KG/copyright/kg.gram3_ger.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0022": {
+        "id": "1999.04.0022", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Syntax/opensource/latsyn.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0023:text=comm": {
+        "id": "1999.04.0023", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Sophocles/opensource/jebb.soph.ant_eng.xml", 
+            "subdoc", 
+            [
+                "text=comm"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "text=comm"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0024:text=comm": {
+        "id": "1999.04.0024", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Sophocles/opensource/jebb.soph.aj_eng.xml", 
+            "subdoc", 
+            [
+                "text=comm"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "text=comm"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0025:text=comm": {
+        "id": "1999.04.0025", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Sophocles/opensource/jebb.soph.el_eng.xml", 
+            "subdoc", 
+            [
+                "text=comm"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "text=comm"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0026:text=comm": {
+        "id": "1999.04.0026", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Sophocles/copyright/jebb.soph.phil_eng.xml", 
+            "subdoc", 
+            [
+                "text=comm"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "text=comm"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0027:text=comm": {
+        "id": "1999.04.0027", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Sophocles/opensource/jebb.soph.trach_eng.xml", 
+            "subdoc", 
+            [
+                "text=comm"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "text=comm"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0028": {
+        "id": "1999.04.0028", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Herodotus/opensource/how.hdt.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0029:text=comm-poem=1": {
+        "id": "1999.04.0029", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Homeric_Hymns/opensource/allen.hh_eng.xml", 
+            "subdoc", 
+            [
+                "text=comm", 
+                "poem=1"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "text=comm", 
+            "poem=1"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0029:text=comm-poem=10": {
+        "id": "1999.04.0029", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Homeric_Hymns/opensource/allen.hh_eng.xml", 
+            "subdoc", 
+            [
+                "text=comm", 
+                "poem=10"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "text=comm", 
+            "poem=10"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0029:text=comm-poem=11": {
+        "id": "1999.04.0029", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Homeric_Hymns/opensource/allen.hh_eng.xml", 
+            "subdoc", 
+            [
+                "text=comm", 
+                "poem=11"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "text=comm", 
+            "poem=11"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0029:text=comm-poem=12": {
+        "id": "1999.04.0029", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Homeric_Hymns/opensource/allen.hh_eng.xml", 
+            "subdoc", 
+            [
+                "text=comm", 
+                "poem=12"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "text=comm", 
+            "poem=12"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0029:text=comm-poem=13": {
+        "id": "1999.04.0029", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Homeric_Hymns/opensource/allen.hh_eng.xml", 
+            "subdoc", 
+            [
+                "text=comm", 
+                "poem=13"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "text=comm", 
+            "poem=13"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0029:text=comm-poem=14": {
+        "id": "1999.04.0029", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Homeric_Hymns/opensource/allen.hh_eng.xml", 
+            "subdoc", 
+            [
+                "text=comm", 
+                "poem=14"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "text=comm", 
+            "poem=14"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0029:text=comm-poem=15": {
+        "id": "1999.04.0029", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Homeric_Hymns/opensource/allen.hh_eng.xml", 
+            "subdoc", 
+            [
+                "text=comm", 
+                "poem=15"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "text=comm", 
+            "poem=15"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0029:text=comm-poem=16": {
+        "id": "1999.04.0029", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Homeric_Hymns/opensource/allen.hh_eng.xml", 
+            "subdoc", 
+            [
+                "text=comm", 
+                "poem=16"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "text=comm", 
+            "poem=16"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0029:text=comm-poem=17": {
+        "id": "1999.04.0029", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Homeric_Hymns/opensource/allen.hh_eng.xml", 
+            "subdoc", 
+            [
+                "text=comm", 
+                "poem=17"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "text=comm", 
+            "poem=17"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0029:text=comm-poem=18": {
+        "id": "1999.04.0029", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Homeric_Hymns/opensource/allen.hh_eng.xml", 
+            "subdoc", 
+            [
+                "text=comm", 
+                "poem=18"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "text=comm", 
+            "poem=18"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0029:text=comm-poem=19": {
+        "id": "1999.04.0029", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Homeric_Hymns/opensource/allen.hh_eng.xml", 
+            "subdoc", 
+            [
+                "text=comm", 
+                "poem=19"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "text=comm", 
+            "poem=19"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0029:text=comm-poem=2": {
+        "id": "1999.04.0029", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Homeric_Hymns/opensource/allen.hh_eng.xml", 
+            "subdoc", 
+            [
+                "text=comm", 
+                "poem=2"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "text=comm", 
+            "poem=2"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0029:text=comm-poem=20": {
+        "id": "1999.04.0029", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Homeric_Hymns/opensource/allen.hh_eng.xml", 
+            "subdoc", 
+            [
+                "text=comm", 
+                "poem=20"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "text=comm", 
+            "poem=20"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0029:text=comm-poem=21": {
+        "id": "1999.04.0029", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Homeric_Hymns/opensource/allen.hh_eng.xml", 
+            "subdoc", 
+            [
+                "text=comm", 
+                "poem=21"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "text=comm", 
+            "poem=21"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0029:text=comm-poem=22": {
+        "id": "1999.04.0029", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Homeric_Hymns/opensource/allen.hh_eng.xml", 
+            "subdoc", 
+            [
+                "text=comm", 
+                "poem=22"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "text=comm", 
+            "poem=22"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0029:text=comm-poem=23": {
+        "id": "1999.04.0029", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Homeric_Hymns/opensource/allen.hh_eng.xml", 
+            "subdoc", 
+            [
+                "text=comm", 
+                "poem=23"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "text=comm", 
+            "poem=23"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0029:text=comm-poem=24": {
+        "id": "1999.04.0029", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Homeric_Hymns/opensource/allen.hh_eng.xml", 
+            "subdoc", 
+            [
+                "text=comm", 
+                "poem=24"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "text=comm", 
+            "poem=24"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0029:text=comm-poem=25": {
+        "id": "1999.04.0029", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Homeric_Hymns/opensource/allen.hh_eng.xml", 
+            "subdoc", 
+            [
+                "text=comm", 
+                "poem=25"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "text=comm", 
+            "poem=25"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0029:text=comm-poem=26": {
+        "id": "1999.04.0029", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Homeric_Hymns/opensource/allen.hh_eng.xml", 
+            "subdoc", 
+            [
+                "text=comm", 
+                "poem=26"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "text=comm", 
+            "poem=26"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0029:text=comm-poem=27": {
+        "id": "1999.04.0029", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Homeric_Hymns/opensource/allen.hh_eng.xml", 
+            "subdoc", 
+            [
+                "text=comm", 
+                "poem=27"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "text=comm", 
+            "poem=27"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0029:text=comm-poem=28": {
+        "id": "1999.04.0029", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Homeric_Hymns/opensource/allen.hh_eng.xml", 
+            "subdoc", 
+            [
+                "text=comm", 
+                "poem=28"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "text=comm", 
+            "poem=28"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0029:text=comm-poem=29": {
+        "id": "1999.04.0029", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Homeric_Hymns/opensource/allen.hh_eng.xml", 
+            "subdoc", 
+            [
+                "text=comm", 
+                "poem=29"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "text=comm", 
+            "poem=29"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0029:text=comm-poem=3": {
+        "id": "1999.04.0029", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Homeric_Hymns/opensource/allen.hh_eng.xml", 
+            "subdoc", 
+            [
+                "text=comm", 
+                "poem=3"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "text=comm", 
+            "poem=3"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0029:text=comm-poem=30": {
+        "id": "1999.04.0029", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Homeric_Hymns/opensource/allen.hh_eng.xml", 
+            "subdoc", 
+            [
+                "text=comm", 
+                "poem=30"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "text=comm", 
+            "poem=30"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0029:text=comm-poem=31": {
+        "id": "1999.04.0029", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Homeric_Hymns/opensource/allen.hh_eng.xml", 
+            "subdoc", 
+            [
+                "text=comm", 
+                "poem=31"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "text=comm", 
+            "poem=31"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0029:text=comm-poem=32": {
+        "id": "1999.04.0029", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Homeric_Hymns/opensource/allen.hh_eng.xml", 
+            "subdoc", 
+            [
+                "text=comm", 
+                "poem=32"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "text=comm", 
+            "poem=32"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0029:text=comm-poem=33": {
+        "id": "1999.04.0029", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Homeric_Hymns/opensource/allen.hh_eng.xml", 
+            "subdoc", 
+            [
+                "text=comm", 
+                "poem=33"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "text=comm", 
+            "poem=33"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0029:text=comm-poem=4": {
+        "id": "1999.04.0029", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Homeric_Hymns/opensource/allen.hh_eng.xml", 
+            "subdoc", 
+            [
+                "text=comm", 
+                "poem=4"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "text=comm", 
+            "poem=4"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0029:text=comm-poem=5": {
+        "id": "1999.04.0029", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Homeric_Hymns/opensource/allen.hh_eng.xml", 
+            "subdoc", 
+            [
+                "text=comm", 
+                "poem=5"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "text=comm", 
+            "poem=5"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0029:text=comm-poem=6": {
+        "id": "1999.04.0029", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Homeric_Hymns/opensource/allen.hh_eng.xml", 
+            "subdoc", 
+            [
+                "text=comm", 
+                "poem=6"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "text=comm", 
+            "poem=6"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0029:text=comm-poem=7": {
+        "id": "1999.04.0029", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Homeric_Hymns/opensource/allen.hh_eng.xml", 
+            "subdoc", 
+            [
+                "text=comm", 
+                "poem=7"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "text=comm", 
+            "poem=7"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0029:text=comm-poem=8": {
+        "id": "1999.04.0029", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Homeric_Hymns/opensource/allen.hh_eng.xml", 
+            "subdoc", 
+            [
+                "text=comm", 
+                "poem=8"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "text=comm", 
+            "poem=8"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0029:text=comm-poem=9": {
+        "id": "1999.04.0029", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Homeric_Hymns/opensource/allen.hh_eng.xml", 
+            "subdoc", 
+            [
+                "text=comm", 
+                "poem=9"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "text=comm", 
+            "poem=9"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0030": {
+        "id": "1999.04.0030", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Thucydides/opensource/marchant.thuc2_eng.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0031": {
+        "id": "1999.04.0031", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Thucydides/opensource/marchant.thuc3_eng.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0032": {
+        "id": "1999.04.0032", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Thucydides/opensource/marchant.thuc6_eng.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0033": {
+        "id": "1999.04.0033", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Thucydides/opensource/marchant.thuc7_eng.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0034": {
+        "id": "1999.04.0034", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Thucydides/opensource/smith.thuc3_eng.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0035": {
+        "id": "1999.04.0035", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Thucydides/opensource/tucker.thuc8_eng.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0036": {
+        "id": "1999.04.0036", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Thucydides/opensource/graves.thuc4_eng.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0037": {
+        "id": "1999.04.0037", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Thucydides/opensource/graves.thuc5_eng.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0038": {
+        "id": "1999.04.0038", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Herodotus/opensource/macan.hdt.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0044": {
+        "id": "1999.04.0044", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/ArchDB/copyright/buitron.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0045": {
+        "id": "1999.04.0045", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/ArchDB/copyright/moon.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0046": {
+        "id": "1999.04.0046", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/ArchDB/copyright/rw.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0047": {
+        "id": "1999.04.0047", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/ArchDB/copyright/shapiro.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0050:text=Arch.": {
+        "id": "1999.04.0050", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Cicero/opensource/ag.cic_eng.xml", 
+            "subdoc", 
+            [
+                "text=Arch."
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "text=Arch."
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0050:text=Catil.": {
+        "id": "1999.04.0050", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Cicero/opensource/ag.cic_eng.xml", 
+            "subdoc", 
+            [
+                "text=Catil."
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "text=Catil."
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0050:text=Lig.": {
+        "id": "1999.04.0050", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Cicero/opensource/ag.cic_eng.xml", 
+            "subdoc", 
+            [
+                "text=Lig."
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "text=Lig."
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0050:text=Man.": {
+        "id": "1999.04.0050", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Cicero/opensource/ag.cic_eng.xml", 
+            "subdoc", 
+            [
+                "text=Man."
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "text=Man."
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0050:text=Marc.": {
+        "id": "1999.04.0050", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Cicero/opensource/ag.cic_eng.xml", 
+            "subdoc", 
+            [
+                "text=Marc."
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "text=Marc."
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0050:text=Mil.": {
+        "id": "1999.04.0050", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Cicero/opensource/ag.cic_eng.xml", 
+            "subdoc", 
+            [
+                "text=Mil."
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "text=Mil."
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0050:text=Phil.": {
+        "id": "1999.04.0050", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Cicero/opensource/ag.cic_eng.xml", 
+            "subdoc", 
+            [
+                "text=Phil."
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "text=Phil."
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0050:text=S. Rosc.": {
+        "id": "1999.04.0050", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Cicero/opensource/ag.cic_eng.xml", 
+            "subdoc", 
+            [
+                "text=S. Rosc."
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "text=S. Rosc."
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0050:text=Ver.": {
+        "id": "1999.04.0050", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Cicero/opensource/ag.cic_eng.xml", 
+            "subdoc", 
+            [
+                "text=Ver."
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "text=Ver."
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0051": {
+        "id": "1999.04.0051", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Cicero/opensource/donk.cic.rosc.am.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0052": {
+        "id": "1999.04.0052", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Syntax/opensource/gksyn.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0053": {
+        "id": "1999.04.0053", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Overviews/opensource/classics.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0054": {
+        "id": "1999.04.0054", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Platner/copyright/platner.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0055": {
+        "id": "1999.04.0055", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Homer/opensource/monro.hom.od_eng.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0056": {
+        "id": "1999.04.0056", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Homer/opensource/leaf.hom.il_eng.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0057": {
+        "id": "1999.04.0057", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/LSJ/copyright/lsj.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0058": {
+        "id": "1999.04.0058", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/LSJ/opensource/ml.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0059": {
+        "id": "1999.04.0059", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Lewis/copyright/ls.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0060": {
+        "id": "1999.04.0060", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Lewis/opensource/lewis.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0061": {
+        "id": "1999.04.0061", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Ovid/opensource/ovid.her_comm.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0062": {
+        "id": "1999.04.0062", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Harper/copyright/harper.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0063": {
+        "id": "1999.04.0063", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Smith/copyright/realia.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0064": {
+        "id": "1999.04.0064", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Smith/copyright/geo.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0065": {
+        "id": "1999.04.0065", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Goodwin/opensource/goodwin.moods_eng.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0066": {
+        "id": "1999.04.0066", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Syntax/opensource/hale.art.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0067:text=Carm.": {
+        "id": "1999.04.0067", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Horace/opensource/shore.hor_eng.xml", 
+            "subdoc", 
+            [
+                "text=Carm."
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "text=Carm."
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0067:text=Epod.": {
+        "id": "1999.04.0067", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Horace/opensource/shore.hor_eng.xml", 
+            "subdoc", 
+            [
+                "text=Epod."
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "text=Epod."
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0067:text=Saec.": {
+        "id": "1999.04.0067", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Horace/opensource/shore.hor_eng.xml", 
+            "subdoc", 
+            [
+                "text=Saec."
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "text=Saec."
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0068:text=comm": {
+        "id": "1999.04.0068", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Apollonius/copyright/mooney.xml", 
+            "subdoc", 
+            [
+                "text=comm"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "text=comm"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0069:text=comm": {
+        "id": "1999.04.0069", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Theocritus/copyright/cholmeley.xml", 
+            "subdoc", 
+            [
+                "text=comm"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "text=comm"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0069:text=epigr": {
+        "id": "1999.04.0069", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Theocritus/copyright/cholmeley.xml", 
+            "subdoc", 
+            [
+                "text=epigr"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "text=epigr"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0070": {
+        "id": "1999.04.0070", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Plautus/opensource/lindsay_syntax.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0071": {
+        "id": "1999.04.0071", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Plautus/opensource/textcrit.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0072": {
+        "id": "1999.04.0072", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Pindar/copyright/slater.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0073": {
+        "id": "1999.04.0073", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Homer/copyright/autenrieth.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0074": {
+        "id": "1999.04.0074", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Gildersleeve/opensource/syntax.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0075": {
+        "id": "1999.04.0075", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Dobson/opensource/greek_orators.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0076:coll=A": {
+        "id": "1999.04.0076", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Cicero/opensource/abb.cic_eng.xml", 
+            "subdoc", 
+            [
+                "coll=A"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "coll=A"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0076:coll=F": {
+        "id": "1999.04.0076", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Cicero/opensource/abb.cic_eng.xml", 
+            "subdoc", 
+            [
+                "coll=F"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "coll=F"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0076:coll=Q FR": {
+        "id": "1999.04.0076", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Cicero/opensource/abb.cic_eng.xml", 
+            "subdoc", 
+            [
+                "coll=Q FR"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "coll=Q FR"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0077": {
+        "id": "1999.04.0077", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/JebbOrators/opensource/attic_orators.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0078": {
+        "id": "1999.04.0078", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Ovid/opensource/ovid.simm.met_eng.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0079": {
+        "id": "1999.04.0079", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Xenophon/opensource/smith.mem_eng.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0080": {
+        "id": "1999.04.0080", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Aristotle/opensource/cope.rhet.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0081": {
+        "id": "1999.04.0081", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Demosthenes/opensource/goodwin.crown.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0082:speech=4": {
+        "id": "1999.04.0082", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Demosthenes/copyright/davies.phil.xml", 
+            "subdoc", 
+            [
+                "speech=4"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "speech=4"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0082:speech=6": {
+        "id": "1999.04.0082", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Demosthenes/copyright/davies.phil.xml", 
+            "subdoc", 
+            [
+                "speech=6"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "speech=6"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0082:speech=9": {
+        "id": "1999.04.0082", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Demosthenes/copyright/davies.phil.xml", 
+            "subdoc", 
+            [
+                "speech=9"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "speech=9"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0083": {
+        "id": "1999.04.0083", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Homer/opensource/benner.hom.il_eng.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0084:speech=1": {
+        "id": "1999.04.0084", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Demosthenes/opensource/sharpley.olynth.xml", 
+            "subdoc", 
+            [
+                "speech=1"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "speech=1"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0084:speech=2": {
+        "id": "1999.04.0084", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Demosthenes/opensource/sharpley.olynth.xml", 
+            "subdoc", 
+            [
+                "speech=2"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "speech=2"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0084:speech=3": {
+        "id": "1999.04.0084", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Demosthenes/opensource/sharpley.olynth.xml", 
+            "subdoc", 
+            [
+                "speech=3"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "speech=3"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0085:speech=34": {
+        "id": "1999.04.0085", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Demosthenes/opensource/paley.private.xml", 
+            "subdoc", 
+            [
+                "speech=34"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "speech=34"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0085:speech=35": {
+        "id": "1999.04.0085", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Demosthenes/opensource/paley.private.xml", 
+            "subdoc", 
+            [
+                "speech=35"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "speech=35"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0085:speech=37": {
+        "id": "1999.04.0085", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Demosthenes/opensource/paley.private.xml", 
+            "subdoc", 
+            [
+                "speech=37"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "speech=37"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0085:speech=39": {
+        "id": "1999.04.0085", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Demosthenes/opensource/paley.private.xml", 
+            "subdoc", 
+            [
+                "speech=39"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "speech=39"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0085:speech=40": {
+        "id": "1999.04.0085", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Demosthenes/opensource/paley.private.xml", 
+            "subdoc", 
+            [
+                "speech=40"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "speech=40"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0085:speech=56": {
+        "id": "1999.04.0085", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Demosthenes/opensource/paley.private.xml", 
+            "subdoc", 
+            [
+                "speech=56"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "speech=56"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0086:speech=36": {
+        "id": "1999.04.0086", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Demosthenes/opensource/sandys.private.xml", 
+            "subdoc", 
+            [
+                "speech=36"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "speech=36"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0086:speech=45": {
+        "id": "1999.04.0086", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Demosthenes/opensource/sandys.private.xml", 
+            "subdoc", 
+            [
+                "speech=45"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "speech=45"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0086:speech=46": {
+        "id": "1999.04.0086", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Demosthenes/opensource/sandys.private.xml", 
+            "subdoc", 
+            [
+                "speech=46"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "speech=46"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0086:speech=53": {
+        "id": "1999.04.0086", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Demosthenes/opensource/sandys.private.xml", 
+            "subdoc", 
+            [
+                "speech=53"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "speech=53"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0086:speech=54": {
+        "id": "1999.04.0086", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Demosthenes/opensource/sandys.private.xml", 
+            "subdoc", 
+            [
+                "speech=54"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "speech=54"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0086:speech=55": {
+        "id": "1999.04.0086", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Demosthenes/opensource/sandys.private.xml", 
+            "subdoc", 
+            [
+                "speech=55"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "speech=55"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0087": {
+        "id": "1999.04.0087", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Homer/opensource/seymour.hom.il1-3.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0088": {
+        "id": "1999.04.0088", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Homer/opensource/seymour.hom.il4-6.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0089:speech=2": {
+        "id": "1999.04.0089", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Isocrates/opensource/forster.isoc.cyp_eng.xml", 
+            "subdoc", 
+            [
+                "speech=2"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "speech=2"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0089:speech=3": {
+        "id": "1999.04.0089", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Isocrates/opensource/forster.isoc.cyp_eng.xml", 
+            "subdoc", 
+            [
+                "speech=3"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "speech=3"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0089:speech=9": {
+        "id": "1999.04.0089", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Isocrates/opensource/forster.isoc.cyp_eng.xml", 
+            "subdoc", 
+            [
+                "speech=9"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "speech=9"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0090:text=comm": {
+        "id": "1999.04.0090", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Plato/opensource/bury.symp.xml", 
+            "subdoc", 
+            [
+                "text=comm"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "text=comm"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0091": {
+        "id": "1999.04.0091", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Plato/opensource/lodge.plat.gorg_eng.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0092": {
+        "id": "1999.04.0092", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Plato/opensource/towle.plat.prot_eng.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0093": {
+        "id": "1999.04.0093", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Plato/opensource/adam.plat.prot_eng.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0094": {
+        "id": "1999.04.0094", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Plato/opensource/adam.rep.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0095": {
+        "id": "1999.04.0095", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Thucydides/opensource/marchant.thuc1_eng.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0096": {
+        "id": "1999.04.0096", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Thucydides/opensource/fowler.thuc5_eng.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0097": {
+        "id": "1999.04.0097", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Thucydides/opensource/morris.thuc1_eng.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0098": {
+        "id": "1999.04.0098", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Thucydides/opensource/smith.thuc6_eng.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0099": {
+        "id": "1999.04.0099", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Thucydides/opensource/smith.thuc7_eng.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0100:orator=Andocides-speech=1": {
+        "id": "1999.04.0100", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/JebbOrators/opensource/jebb.selections.xml", 
+            "subdoc", 
+            [
+                "orator=Andocides", 
+                "speech=1"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "orator=Andocides", 
+            "speech=1"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0100:orator=Andocides-speech=2": {
+        "id": "1999.04.0100", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/JebbOrators/opensource/jebb.selections.xml", 
+            "subdoc", 
+            [
+                "orator=Andocides", 
+                "speech=2"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "orator=Andocides", 
+            "speech=2"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0100:orator=Antiphon-speech=3": {
+        "id": "1999.04.0100", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/JebbOrators/opensource/jebb.selections.xml", 
+            "subdoc", 
+            [
+                "orator=Antiphon", 
+                "speech=3"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "orator=Antiphon", 
+            "speech=3"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0100:orator=Antiphon-speech=4": {
+        "id": "1999.04.0100", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/JebbOrators/opensource/jebb.selections.xml", 
+            "subdoc", 
+            [
+                "orator=Antiphon", 
+                "speech=4"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "orator=Antiphon", 
+            "speech=4"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0100:orator=Antiphon-speech=5": {
+        "id": "1999.04.0100", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/JebbOrators/opensource/jebb.selections.xml", 
+            "subdoc", 
+            [
+                "orator=Antiphon", 
+                "speech=5"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "orator=Antiphon", 
+            "speech=5"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0100:orator=Antiphon-speech=6": {
+        "id": "1999.04.0100", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/JebbOrators/opensource/jebb.selections.xml", 
+            "subdoc", 
+            [
+                "orator=Antiphon", 
+                "speech=6"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "orator=Antiphon", 
+            "speech=6"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0100:orator=Isaeus-speech=11": {
+        "id": "1999.04.0100", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/JebbOrators/opensource/jebb.selections.xml", 
+            "subdoc", 
+            [
+                "orator=Isaeus", 
+                "speech=11"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "orator=Isaeus", 
+            "speech=11"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0100:orator=Isaeus-speech=5": {
+        "id": "1999.04.0100", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/JebbOrators/opensource/jebb.selections.xml", 
+            "subdoc", 
+            [
+                "orator=Isaeus", 
+                "speech=5"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "orator=Isaeus", 
+            "speech=5"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0100:orator=Isaeus-speech=8": {
+        "id": "1999.04.0100", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/JebbOrators/opensource/jebb.selections.xml", 
+            "subdoc", 
+            [
+                "orator=Isaeus", 
+                "speech=8"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "orator=Isaeus", 
+            "speech=8"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0100:orator=Isocrates-speech=10": {
+        "id": "1999.04.0100", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/JebbOrators/opensource/jebb.selections.xml", 
+            "subdoc", 
+            [
+                "orator=Isocrates", 
+                "speech=10"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "orator=Isocrates", 
+            "speech=10"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0100:orator=Isocrates-speech=13": {
+        "id": "1999.04.0100", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/JebbOrators/opensource/jebb.selections.xml", 
+            "subdoc", 
+            [
+                "orator=Isocrates", 
+                "speech=13"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "orator=Isocrates", 
+            "speech=13"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0100:orator=Isocrates-speech=15": {
+        "id": "1999.04.0100", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/JebbOrators/opensource/jebb.selections.xml", 
+            "subdoc", 
+            [
+                "orator=Isocrates", 
+                "speech=15"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "orator=Isocrates", 
+            "speech=15"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0100:orator=Isocrates-speech=19": {
+        "id": "1999.04.0100", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/JebbOrators/opensource/jebb.selections.xml", 
+            "subdoc", 
+            [
+                "orator=Isocrates", 
+                "speech=19"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "orator=Isocrates", 
+            "speech=19"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0100:orator=Isocrates-speech=3": {
+        "id": "1999.04.0100", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/JebbOrators/opensource/jebb.selections.xml", 
+            "subdoc", 
+            [
+                "orator=Isocrates", 
+                "speech=3"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "orator=Isocrates", 
+            "speech=3"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0100:orator=Isocrates-speech=4": {
+        "id": "1999.04.0100", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/JebbOrators/opensource/jebb.selections.xml", 
+            "subdoc", 
+            [
+                "orator=Isocrates", 
+                "speech=4"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "orator=Isocrates", 
+            "speech=4"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0100:orator=Isocrates-speech=6": {
+        "id": "1999.04.0100", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/JebbOrators/opensource/jebb.selections.xml", 
+            "subdoc", 
+            [
+                "orator=Isocrates", 
+                "speech=6"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "orator=Isocrates", 
+            "speech=6"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0100:orator=Isocrates-speech=7": {
+        "id": "1999.04.0100", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/JebbOrators/opensource/jebb.selections.xml", 
+            "subdoc", 
+            [
+                "orator=Isocrates", 
+                "speech=7"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "orator=Isocrates", 
+            "speech=7"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0100:orator=Isocrates-speech=8": {
+        "id": "1999.04.0100", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/JebbOrators/opensource/jebb.selections.xml", 
+            "subdoc", 
+            [
+                "orator=Isocrates", 
+                "speech=8"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "orator=Isocrates", 
+            "speech=8"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0100:orator=Isocrates-speech=9": {
+        "id": "1999.04.0100", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/JebbOrators/opensource/jebb.selections.xml", 
+            "subdoc", 
+            [
+                "orator=Isocrates", 
+                "speech=9"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "orator=Isocrates", 
+            "speech=9"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0100:orator=Isocrates-speech=l.3": {
+        "id": "1999.04.0100", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/JebbOrators/opensource/jebb.selections.xml", 
+            "subdoc", 
+            [
+                "orator=Isocrates", 
+                "speech=l.3"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "orator=Isocrates", 
+            "speech=l.3"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0100:orator=Isocrates-speech=l.5": {
+        "id": "1999.04.0100", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/JebbOrators/opensource/jebb.selections.xml", 
+            "subdoc", 
+            [
+                "orator=Isocrates", 
+                "speech=l.5"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "orator=Isocrates", 
+            "speech=l.5"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0100:orator=Lysias-speech=10": {
+        "id": "1999.04.0100", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/JebbOrators/opensource/jebb.selections.xml", 
+            "subdoc", 
+            [
+                "orator=Lysias", 
+                "speech=10"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "orator=Lysias", 
+            "speech=10"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0100:orator=Lysias-speech=12": {
+        "id": "1999.04.0100", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/JebbOrators/opensource/jebb.selections.xml", 
+            "subdoc", 
+            [
+                "orator=Lysias", 
+                "speech=12"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "orator=Lysias", 
+            "speech=12"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0100:orator=Lysias-speech=13": {
+        "id": "1999.04.0100", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/JebbOrators/opensource/jebb.selections.xml", 
+            "subdoc", 
+            [
+                "orator=Lysias", 
+                "speech=13"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "orator=Lysias", 
+            "speech=13"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0100:orator=Lysias-speech=16": {
+        "id": "1999.04.0100", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/JebbOrators/opensource/jebb.selections.xml", 
+            "subdoc", 
+            [
+                "orator=Lysias", 
+                "speech=16"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "orator=Lysias", 
+            "speech=16"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0100:orator=Lysias-speech=23": {
+        "id": "1999.04.0100", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/JebbOrators/opensource/jebb.selections.xml", 
+            "subdoc", 
+            [
+                "orator=Lysias", 
+                "speech=23"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "orator=Lysias", 
+            "speech=23"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0100:orator=Lysias-speech=24": {
+        "id": "1999.04.0100", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/JebbOrators/opensource/jebb.selections.xml", 
+            "subdoc", 
+            [
+                "orator=Lysias", 
+                "speech=24"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "orator=Lysias", 
+            "speech=24"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0100:orator=Lysias-speech=33": {
+        "id": "1999.04.0100", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/JebbOrators/opensource/jebb.selections.xml", 
+            "subdoc", 
+            [
+                "orator=Lysias", 
+                "speech=33"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "orator=Lysias", 
+            "speech=33"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0100:orator=Lysias-speech=34": {
+        "id": "1999.04.0100", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/JebbOrators/opensource/jebb.selections.xml", 
+            "subdoc", 
+            [
+                "orator=Lysias", 
+                "speech=34"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "orator=Lysias", 
+            "speech=34"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0100:orator=Lysias-speech=7": {
+        "id": "1999.04.0100", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/JebbOrators/opensource/jebb.selections.xml", 
+            "subdoc", 
+            [
+                "orator=Lysias", 
+                "speech=7"
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "orator=Lysias", 
+            "speech=7"
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0101:text=comm-book=O.": {
+        "id": "1999.04.0101", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Pindar/opensource/gildersleeve_eng.xml", 
+            "subdoc", 
+            [
+                "text=comm", 
+                "book=O."
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "text=comm", 
+            "book=O."
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0101:text=comm-book=P.": {
+        "id": "1999.04.0101", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Pindar/opensource/gildersleeve_eng.xml", 
+            "subdoc", 
+            [
+                "text=comm", 
+                "book=P."
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "text=comm", 
+            "book=P."
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0103": {
+        "id": "1999.04.0103", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Reisner/copyright/reisner_giza.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "1999.04.0104": {
+        "id": "1999.04.0104", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Smith/copyright/bio.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "2007.01.0024:text=Cat.": {
+        "id": "2007.01.0024", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Sallust/opensource/catjugfrag-appcrit.xml", 
+            "subdoc", 
+            [
+                "text=Cat."
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "text=Cat."
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "2007.01.0024:text=Hist.": {
+        "id": "2007.01.0024", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Sallust/opensource/catjugfrag-appcrit.xml", 
+            "subdoc", 
+            [
+                "text=Hist."
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "text=Hist."
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "2007.01.0024:text=Jug.": {
+        "id": "2007.01.0024", 
+        "inv": "", 
+        "note": "", 
+        "src": [
+            "texts/Classics/Sallust/opensource/catjugfrag-appcrit.xml", 
+            "subdoc", 
+            [
+                "text=Jug."
+            ]
+        ], 
+        "status": "not migrated - NO URN", 
+        "sub": [
+            "text=Jug."
+        ], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "2007.01.0025": {
+        "id": "2007.01.0025", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Sallust/opensource/catjugfrag-intro.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "2007.01.0026": {
+        "id": "2007.01.0026", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Sallust/opensource/catjugfrag-index.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "2007.01.0046": {
+        "id": "2007.01.0046", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Cicero/opensource/cic.parad_appcrit.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "2007.01.0049": {
+        "id": "2007.01.0049", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Cicero/opensource/cic.off_appcrit.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "2007.01.0050": {
+        "id": "2007.01.0050", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Cicero/opensource/cic.off_index.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "2007.01.0051": {
+        "id": "2007.01.0051", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Cicero/opensource/cic.off_intro.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "2007.01.0052": {
+        "id": "2007.01.0052", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Cicero/opensource/cic.amic_falc_intro.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "2007.01.0053": {
+        "id": "2007.01.0053", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Cicero/opensource/cic.div_falc_intro.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "2007.01.0054": {
+        "id": "2007.01.0054", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Cicero/opensource/cic.sen_falc_intro.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "2007.01.0055": {
+        "id": "2007.01.0055", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Seneca/opensource/sen.apoc_intro.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "2007.01.0056": {
+        "id": "2007.01.0056", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Petronius/opensource/petr.poems_intro.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "2007.01.0057": {
+        "id": "2007.01.0057", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Petronius/opensource/petr_intro.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "2007.01.0061": {
+        "id": "2007.01.0061", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Quintilian/opensource/quint.butler1-3_intro.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "2007.01.0064": {
+        "id": "2007.01.0064", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Quintilian/opensource/quint.butler4-6_appcrit.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "2007.01.0067": {
+        "id": "2007.01.0067", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Quintilian/opensource/quint.butler7-9_intro.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "2007.01.0070": {
+        "id": "2007.01.0070", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Flaccus/opensource/v.fl_intro.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "2007.01.0073": {
+        "id": "2007.01.0073", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Gellius/opensource/gel.rolfe1_intro.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "2007.01.0074": {
+        "id": "2007.01.0074", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Hippocrates/opensource/hp.aer.jones_intro.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "2007.01.0075": {
+        "id": "2007.01.0075", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Hippocrates/opensource/hp.alim.jones_intro.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "2007.01.0076": {
+        "id": "2007.01.0076", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Hippocrates/opensource/hp.epid.jones_intro.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "2007.01.0077": {
+        "id": "2007.01.0077", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Hippocrates/opensource/hp.jusj.jones_intro.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "2007.01.0078": {
+        "id": "2007.01.0078", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Hippocrates/opensource/hp.praec.jones_intro.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "2007.01.0079": {
+        "id": "2007.01.0079", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Hippocrates/opensource/hp.vm.jones_intro.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "2007.01.0083": {
+        "id": "2007.01.0083", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Ammianus/opensource/amm.rolfe1_intro.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "2007.01.0084": {
+        "id": "2007.01.0084", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Ammianus/opensource/amm.rolfe2_intro.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "2007.01.0085": {
+        "id": "2007.01.0085", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Ammianus/opensource/amm.rolfe3_intro.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "2007.01.0087": {
+        "id": "2007.01.0087", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Celsus/opensource/cels_darem_intro.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "2007.01.0091": {
+        "id": "2007.01.0091", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Vergil/opensource/serv.verg.ecl_lat.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "2007.01.0092": {
+        "id": "2007.01.0092", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Vergil/opensource/serv.verg.georg_lat.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "2008.01.0477": {
+        "id": "2008.01.0477", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/sdl/Elegy/1_gk.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "2008.01.0478": {
+        "id": "2008.01.0478", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/sdl/Elegy/2_gk.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "2008.01.0479": {
+        "id": "2008.01.0479", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Elegy/opensource/1_eng.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }, 
+    "2008.01.0480": {
+        "id": "2008.01.0480", 
+        "inv": "", 
+        "note": "", 
+        "src": "texts/Classics/Elegy/opensource/2_eng.xml", 
+        "status": "not migrated - NO URN", 
+        "sub": [], 
+        "target": "", 
+        "urn": ""
+    }
+}
