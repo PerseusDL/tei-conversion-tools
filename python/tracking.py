@@ -12,6 +12,7 @@ from subprocess import call
 from subprocess import Popen, PIPE
 import shlex
 import codecs
+import time
 
 # urns in form urn:cts:greekLit:tlg0028.tlg004.perseus-eng1
 
@@ -91,17 +92,19 @@ def check_epidoc(urn):
 		args = shlex.split(command)
 		p = subprocess.Popen(command, stdin=PIPE, stdout=PIPE, shell=True)
 		try:
-			outs, errs = p.communicate(timeout=15)
+			outs, errs = p.communicate(timeout=4)
+			if str(outs) == "b''":
+				return True
+			else:
+				return False
 		except subprocess.TimeoutExpired:
 			p.kill()
-			outs, errs = p.communicate()
-		if str(outs) == "b''":
-			return True
-		else:
+			p.communicate()
 			return False
 	else:
-		return "File does not exist"
+		pass
 
+#this needs modification--doesn't give valid results right now
 def check_unicode(urn):
 	fpath = urn2filepath(urn)
 	try:
@@ -145,21 +148,105 @@ def check_cts_metadata(urn):
 
 #add field for catalog data link?
 
-def build_new_json(
-    data,
-    urn,
-    ):
-        data[urn]['status'] = 'migrated'
-        data[urn]['has_cts_metadata'] = check_cts_metadata(urn)
-        data[urn]['has_cts_refsDecl'] = check_refsDecl(urn)
-        data[urn]['epidoc_compliant'] = check_epidoc(urn)
-        data[urn]['valid_xml'] = check_xml_validity(urn)
-        data[urn]['fully_unicode'] = check_unicode(urn)
+def build_new_json(data, urn):
+	data[urn]['status'] = 'migrated'
+	data[urn]['has_cts_metadata'] = check_cts_metadata(urn)
+	data[urn]['has_cts_refsDecl'] = check_refsDecl(urn)
+	data[urn]['valid_xml'] = check_xml_validity(urn)
+	data[urn]['fully_unicode'] = check_unicode(urn)
+    # can't be unicode without being valid xml--this saves time
+	if check_xml_validity(urn) == True:
+		data[urn]['epidoc_compliant'] = check_epidoc(urn)
+	else:
+		data[urn]['epidoc_compliant'] =False
 
 
-#change editor to last listed in revisionDesc?
-#add in a timer? to see what's taking so long?
-#add in JSON formatting?
+#test!!!
+def gather_tracking_json_fromrepo(repoList):
+	data = {}
+	for repo in repoList:
+		files = list_tracking_files([repo])
+		repoData = {}
+		for fpath in files:
+			with open(fpath, "r") as f:
+				text = f.read()
+				filepath = ("/").join(fpath.split("/")[:4]) + "/"+ fpath.split("/")[4].split(".tracking.json")[0] + ".xml"
+				urn = filepath2urn(filepath)
+				repoData[urn] = json.loads(text)
+				print("Adding "+ urn)
+				f.close()
+		with open(repo + "/" + repo+".tracking.json", "w") as outfile:
+				json.dump(repoData, outfile,sort_keys=True, indent=4)
+				print("Completed successfully! The resulting file can be found at " + repo + "/" + repo+".tracking.json")
+		outfile.close()
+		data[repo] = repoData
+	return data
+
+#gather_tracking_json_fromrepo(["canonical-greekLit"])
+
+#change editor to last listed in revisionDesc? bring in info from classics.xml?
+#should this also mess with the massive file and update that if possible? resolving discrepencies (or noting them?)
+#better error handling if filepath can't be created?
+def update_singlefile_trackingjson(urn, editor="unknown", note="", ident="", src=""):
+	if (check_urn_filepathability(urn)== True):
+		data = {}
+		data[urn] = {}
+		data[urn]["last_editor"] = editor
+		data[urn]["target"] = (urn2filepath(urn))
+		data[urn]["note"] = note
+		data[urn]["id"] = ident
+		data[urn]["src"] = src
+		data[urn]["git_repo"] = (urn2filepath(urn)).split("/")[0]
+		if os.path.exists((urn2filepath(urn))):
+			data[urn]["git_repo"] = (urn2filepath(urn)).split("/")[0]
+			build_new_json(data, urn)
+			data[urn]["status"] = "migrated"
+		else:
+			data[urn]["status"] = "not migrated"
+		tracking_fpath = urn2filepath(urn).split(".xml")[0] + ".tracking.json"
+		# make this an edit not a complete rewrite?
+		if os.path.exists(tracking_fpath):
+			try:
+				with open(tracking_fpath, "r") as f:
+					oldJson = json.loads(f.read())
+					data[urn]["id"] = oldJson["id"]
+					data[urn]["src"] = oldJson["src"]
+				#ADD IN TRACKING FOR ADDITIONS OR DELETIONS, NOT JUST CHANGES?
+					for key in oldJson:
+						if oldJson[key] != data[urn][key]:
+							print(key+ " changed from " + oldJson[key] + " to " + data[urn][key] + " for " + urn)
+						if key not in data[urn]:
+							print(key + " lost " + "--old value of " + oldJson[key] + " for " + urn)
+					for key in data[urn]:
+						if key not in oldJson:
+							print(key + " added " + " with a value of " + data[urn][key] + " for " + urn)
+				f.close()
+				with open(tracking_fpath,"w") as outfile:
+					json.dump(data[urn], outfile,sort_keys=True, indent=4)
+				print("Updated tracking file for " + urn)
+				outfile.close()
+			except IsADirectoryError:
+				os.rmdir(tracking_fpath)
+				with open(tracking_fpath,"w") as outfile:
+					json.dump(data[urn], outfile,sort_keys=True, indent=4)
+				outfile.close()
+				print("Created new tracking file for " + urn)
+		elif os.path.exists(("/").join(tracking_fpath.split("/")[0:4])):
+			with open(tracking_fpath,"w") as outfile:
+				json.dump(data[urn], outfile,sort_keys=True, indent=4)
+			outfile.close()
+			print("Created new tracking file for " + urn)
+		else:
+			os.makedirs(("/").join(tracking_fpath.split("/")[0:4]))
+			with open(tracking_fpath,"w") as outfile:
+				json.dump(data[urn], outfile,sort_keys=True, indent=4)
+			outfile.close()
+			print("Created new tracking file for " + urn)
+		print("Completed successfully!")
+	else:
+		print("Filepath cannot be created from URN " + urn)
+
+#Probably don't need the functions below for awhile (or ever again):
 
 def build_tracking_json_fromfiles(editor, repoList):
 	files = list_files(repoList)
@@ -172,14 +259,15 @@ def build_tracking_json_fromfiles(editor, repoList):
 	for urn in urns:
 		if (check_urn_filepathability(urn)== True):
 			if "pack" not in urn:
-				valid_urns.append(urn)
+				if "tracking" not in urn:
+					valid_urns.append(urn)
 	for urn in valid_urns:
 		data[urn] = {}
 		data[urn]["last_editor"] = editor
 		data[urn]["git_repo"] = (urn2filepath(urn)).split("/")[0]
 		data[urn]["target"] = (urn2filepath(urn))
 		build_new_json(data, urn)
-		print("updated " + urn)
+		print("Updated tracking file for " + urn)
 		tracking_fpath = urn2filepath(urn).split(".xml")[0] + ".tracking.json"
 		with open(tracking_fpath,"w") as outfile:
 			json.dump(data[urn], outfile, sort_keys=True, indent=4)
@@ -187,96 +275,98 @@ def build_tracking_json_fromfiles(editor, repoList):
 	print("Completed successfully!")
 
 #build_tracking_json_fromfiles("Stella Dee", ["canonical-greekLit"])
-#figure out what's breaking with canonical-latinLit/data/phi0969/phi001/phi0969.phi001.perseus-lat1.xml
 
-#MAKE JSON PRETTY!!!
-#test!!!
-def gather_tracking_json_fromrepo(repoList):
-	for repo in repoList:
-		files = list_tracking_files([repo])
-		data = {}
-		for fpath in files:
-			with open(fpath, "r") as f:
-				text = f.read()
-				filepath = ("/").join(fpath.split("/")[:4]) + "/"+ fpath.split("/")[4].split(".tracking.json")[0] + ".xml"
-				urn = filepath2urn(filepath)
-				data[urn] = json.loads(text)
-				print("adding "+ urn)
-				f.close()
-		with open(repo + "/" + repo+".tracking.json", "w") as outfile:
-				json.dump(data, outfile,sort_keys=True, indent=4)
-				print("completed successfully! resulting file is " + repo + "/" + repo+".tracking.json")
-		outfile.close()
 
-#gather_tracking_json_fromrepo(["canonical-greekLit"])
-
-#make "note" optional?
-#test!!!!
-def update_singlefile_trackingjson(editor, urn, note):
+def update_singlefile_trackingjson_fromp4top5file(editor, urn, note, ident, src):
 	if (check_urn_filepathability(urn)== True):
 		data = {}
 		data[urn] = {}
 		data[urn]["last_editor"] = editor
-		data[urn]["git_repo"] = (urn2filepath(urn)).split("/")[0]
 		data[urn]["target"] = (urn2filepath(urn))
 		data[urn]["note"] = note
-		build_new_json(data, urn)
-		print("updated " + urn)
+		data[urn]["id"] = ident
+		data[urn]["src"] = src
+		data[urn]["git_repo"] = (urn2filepath(urn)).split("/")[0]
+		if os.path.exists((urn2filepath(urn))):
+			data[urn]["git_repo"] = (urn2filepath(urn)).split("/")[0]
+			build_new_json(data, urn)
+			data[urn]["status"] = "migrated"
+		else:
+			data[urn]["status"] = "not migrated"
 		tracking_fpath = urn2filepath(urn).split(".xml")[0] + ".tracking.json"
-		with open(tracking_fpath,"w") as outfile:
-			json.dump(data[urn], outfile,sort_keys=True, indent=4)
-		outfile.close()
+		# make this an edit not a complete rewrite?
+		if os.path.exists(tracking_fpath):
+			try:
+				with open(tracking_fpath, "r") as f:
+					oldJson = json.loads(f.read())
+				#ADD IN TRACKING FOR ADDITIONS OR DELETIONS, NOT JUST CHANGES?
+					for key in oldJson:
+						if oldJson[key] != data[urn][key]:
+							print(key+ " changed from " + oldJson[key] + " to " + data[urn][key] + " for " + urn)
+						if key not in data[urn]:
+							print(key + " lost " + "--old value of " + oldJson[key] + " for " + urn)
+					for key in data[urn]:
+						if key not in oldJson:
+							print(key + " added " + " with a value of " + data[urn][key] + " for " + urn)
+				f.close()
+				with open(tracking_fpath,"w") as outfile:
+					json.dump(data[urn], outfile,sort_keys=True, indent=4)
+				print("Updated tracking file for " + urn)
+				outfile.close()
+			except IsADirectoryError:
+				os.rmdir(tracking_fpath)
+				with open(tracking_fpath,"w") as outfile:
+					json.dump(data[urn], outfile,sort_keys=True, indent=4)
+				outfile.close()
+				print("Created new tracking file for " + urn)
+		elif os.path.exists(("/").join(tracking_fpath.split("/")[0:4])):
+			with open(tracking_fpath,"w") as outfile:
+				json.dump(data[urn], outfile,sort_keys=True, indent=4)
+			outfile.close()
+			print("Created new tracking file for " + urn)
+		else:
+			os.makedirs(("/").join(tracking_fpath.split("/")[0:4]))
+			with open(tracking_fpath,"w") as outfile:
+				json.dump(data[urn], outfile,sort_keys=True, indent=4)
+			outfile.close()
+			print("Created new tracking file for " + urn)
 		print("Completed successfully!")
 	else:
-		print("filepath does not exist")
+		print("Filepath cannot be created from URN " + urn)
+
+#update_singlefile_trackingjson("Stella Dee", "urn:cts:greekLit:tlg0003.tlg001.opp-ger3")
+
+#the function below is not yet finished--will probably only need to be run once
+
+def port_p4top5(repoList):
+	with open("tei-conversion-tools/summary_data/p4top5.json", "r") as old_data:
+		oldJson = old_data.read()
+		oldData = json.loads(oldJson)
+		urnLessEntries = {}
+		for key, value in oldData.items():
+			if len(oldData[key]["sub"]) == 0:
+				if len(oldData[key]["urn"]) > 0:
+					update_singlefile_trackingjson_fromp4top5file("", oldData[key]["urn"], oldData[key]["note"], oldData[key]["id"], oldData[key]["src"])
+					print("Updated " + oldData[key]["urn"])
+				else:
+					oldData[key]["status"] = "not migrated - NO URN"
+					urnLessEntries[key] = oldData[key] 
+					print("Added " + oldData[key]["id"] + " to urnLessEntries")
+			else:
+				for l in oldData[key]["sub"]:
+					if len(l["urn"]) > 0:
+						update_singlefile_trackingjson_fromp4top5file("", l["urn"], l["note"], l["id"], ("---").join([oldData[key]["src"], l["src"],"-".join(l["sub"])]))
+						print("Updated " + l["urn"])
+					else:
+						l["src"] = [oldData[key]["src"], l["src"],l["sub"]]
+						l["status"] = "not migrated - NO URN"
+						urnLessEntries[l["id"] + ":" + "-".join(l["sub"])] = l
+						print("Added " + l["id"] + ":" + "-".join(l["sub"]) + " to urnLessEntries")
+		with open("tei-conversion-tools/summary_data/urnLessEntries.json", "w") as f:
+			json.dump(urnLessEntries, f,sort_keys=True, indent=4)
+		#this updates the big file
+		gather_tracking_json_fromrepo(repoList)
+
+#port_p4top5(["canonical-greekLit", "canonical-latinLit"])
 
 
-"""	
-
-#def update_tracking_json_singlefile(editor, urn, note):
-
-def edit_premade_json(
-    data,
-    key,
-    filepath,
-    files,
-    editor,
-    ):
-    if filepath in files:
-        data[key]['target'] = filepath
-        data[key]['status'] = 'migrated'
-        data[key]['git_repo'] = filepath.split(':')[0]
-        data[key]['last_editor'] = editor
-        data[key]['has_cts_metadata'] = check_cts_metadata(str(data[key]['urn']))
-        data[key]['has_cts_refsDecl'] = check_refsDecl(str(data[key]['urn']))
-        data[key]['epidoc_compliant'] = check_epidoc(str(data[key]['urn']))
-        data[key]['valid_xml'] = check_xml_validity(str(data[key]['urn']))
-    else:
-        data[key]['status'] = 'not-migrated'
-        data[key]['git_repo'] = ''
-        data[key]['has_cts_metadata'] = False
-        data[key]['has_cts_refsDecl'] = False
-        data[key]['epidoc_compliant'] = False	
-
-def port_p4top5(editor, repoList):
-	files = list_files(repoList)
-	with open(trackingFile, "r+") as data_file:    
-    	data = json.load(data_file)
-    	for key, value in data.items():
-    		if len(data[key]["sub"]) == 0:
-    			if len(data[key]["urn"]) > 0:
-    				filepath = urn2filepath(str(data[key]["urn"]))
-    				#CHANGE KEY TO CTS NAME BEFORE EDITING JSON --WRITE WHOLE NEW JSON FILE???
-    				edit_json(data, key, filepath, editor)
-    		else:
-    			data[key]["status"] = "composite doc"
-    			for l in data[key]["sub"]:
-    				data[str(l["urn"])] = l
-    				filepath = urn2filepath(str(l["urn"]))
-    				edit_json(data,str(l["urn"]), filepath, files, editor)
-    			
-#e.g. update_tracking_json("Dee", ["canonical-greekLit","canonical-latinLit"], "tei-conversion-tools/summary_data/p4top5.json" )
-
-"""
-
-			
