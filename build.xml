@@ -2,8 +2,10 @@
 <project default="build" name="canonical-latinLit">
     <xmlproperty file="expath-pkg.xml"/>
     <property name="root.dir" value="."/>
+    <property name="param.xslt" value="fix-refsdecl.xsl"/>
     <property name="param.source" value="cts"/>
-    <property name="saxon.path" value="/usr/share/java/saxon-6.5.5.jar"/>
+    <property name="data.required" value="__cts__.xml"/>
+    <property name="saxon.path" value="/usr/share/java/Saxon-HE-9.4.0.7.jar"/>
     <path id="saxon-classpath">
         <pathelement location=""/>
     </path>
@@ -22,5 +24,107 @@
         processor="trax"
         classpath="${saxon.path}">
       </xslt>
+    </target>
+
+    <target name="copy">
+      <copy todir="${param.source}/../copy" verbose="true">
+        <fileset dir="${param.source}">
+            <include name="*"/>
+        </fileset>
+      </copy>
+    </target>
+
+    <target name="include" depends="copy">
+        <!-- Remove files if they are not neighbour of required ${data.checkfile} -->
+        <script language="javascript"> <![CDATA[
+          var getInclude = function(list) {
+              var o = {};
+              for (i=0; i<list.length; i++) {
+                var f = list[i];
+                if(f.indexOf(inc_file) > 0) {
+                    var folder = f.split("/").slice(0,-1).join("/");;
+                    o[folder] = f;
+                }
+              }
+              return o;
+          }
+          importClass(java.io.File);
+          importClass(java.io.FileReader);
+          importClass(java.io.BufferedReader);
+          importClass(org.apache.tools.ant.filters.TokenFilter);
+          importClass(org.apache.tools.ant.util.FileUtils);
+          Validator = new TokenFilter.ContainsString()
+          Validator.setContains("cRefPattern")
+          Reader = function(file) {
+            return FileUtils.readFully(new FileReader(file));
+          }
+
+
+
+          // Access to Ant-Properties by their names
+          data_dir = project.getProperty("param.source"); // The directory where you want to check for subdirectory including X
+          copy_dir = "/../copy"; // The directory where you want to check for subdirectory including X
+          inc_file = project.getProperty("data.required"); // The file which says if a folder should be copie
+
+          // Create a <fileset dir="" includes=""/> to retrieve everything from this folder
+          fs = project.createDataType("fileset");
+          fs.setDir( new File(data_dir) );
+          fs.setIncludes("**");
+          ds = fs.getDirectoryScanner(project); // Get the files (array) of that fileset
+          files = ds.getIncludedFiles(); // Get only the files
+
+          //Create destination and sourceDir File instances
+          basedir = new File("/");
+          destination = new File(basedir, [data_dir, copy_dir].join("/"));
+          source = new File(basedir, data_dir);
+
+          //We create an object where key are folder containing said inc_file
+          exist = getInclude(files);
+          includes = [];
+          for (i=0; i<files.length; i++) {
+            filename = files[i];
+            folder = filename.split("/").slice(0,-1).join("/");
+            if(exist[folder]) {
+                f = new File(source, filename);
+                fr = new FileReader(f);
+                
+                // Read the file. 
+                // This assumes the file has no line breaks and is one line.
+                if(Validator.filter(Reader(f))) {
+                    self.log(filename);
+                    copy = project.createTask("copy");
+                    copy.setTofile(new File(destination, filename));
+                    copy.setFile(f);
+                    copy.perform();
+                }
+            }
+          }
+        ]]>
+        </script>
+    </target>
+
+    <target name="apply-xslt-cts" depends="include">
+      <xslt 
+        style="${root.dir}/xslt/${param.xslt}" 
+        destdir="${param.source}" 
+        basedir="${param.source}/../copy" 
+        includes="**/*.xml"
+        extension=".xml"
+        filenameparameter="filename"
+        filedirparameter="filedir"
+        force="true"
+        processor="trax"
+        classpath="${saxon.path}"
+        failOnError="false">
+
+        <factory name="net.sf.saxon.TransformerFactoryImpl">
+            <attribute name="http://saxon.sf.net/feature/expandAttributeDefaults" value="off"/>
+        </factory>
+
+      </xslt>
+    </target>
+
+    <target name="fix-tei" depends="apply-xslt-cts">
+        <delete dir="${param.source}/../copy" />
     </target>
 </project>
