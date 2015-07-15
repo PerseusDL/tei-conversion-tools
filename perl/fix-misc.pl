@@ -1,5 +1,13 @@
 #!/usr/bin/perl
-# Miscenalleous fixes to TEI text document which need to be moved into the XQuery code 
+# This script should only be used on texts whose citation hierarchy is defined
+# in terms of divs and lines using the div and l tags.
+# All it does is
+# - 1. Makes sure the <text/> element has a language attribute
+# - 2. Makes sure all l elements are numbered
+# By default, it restarts the numbering for l elements each time a div is encountered
+# If you don't want this behavior, and instead want the l numbers to be sequential regardless
+# of divs (which would be the case if only the lines are part of the canonical citation scheme)
+# then specify 1 as the value of the norestart argument
 use strict;
 
 my $e_input = $ARGV[0];
@@ -9,7 +17,7 @@ my $norestart = $ARGV[3];
 
 unless ($e_input && $e_output && $e_lang)
 {
-    die "Usage: $0 <input file> <output file> <source language>\n";
+    die "Usage: $0 <input file> <output file> <source language> [norestart]\nE.g. $0 file.xml file_output.xml grc 1";
 }
 open IN, "<$e_input" or die "$!\n";
 open OUT, ">$e_output" or die "$!\n";
