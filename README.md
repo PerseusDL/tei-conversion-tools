@@ -9,7 +9,7 @@ Tools for TEI Conversions
 
 #JAR
 ##Usage message
-Run: 'java -jar tei.transformer-assembly-0.1a.jar' or 'java -jar tei.transformer.lang_grc.jar' for a usage message
+Run: `java -jar tei.transformer-assembly-0.1a.jar` or `java -jar tei.transformer.lang_grc.jar` for a usage message
 ##Usage warnings
-Unicode results may contain apostrophe/breathmark and similar errors. It's recommended to use https://github.com/srdee/tei-conversion-tools/blob/master/xslt/alpheios/beta2unicode.xsl instead.
+Unicode results may contain apostrophe/breathmark and similar errors. It's recommended to use tei-conversion-tools/xslt/alpheios/beta2unicode.xsl instead.
 
