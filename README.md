@@ -13,3 +13,7 @@ Run: `java -jar tei.transformer-assembly-0.1a.jar` or `java -jar tei.transformer
 ##Usage warnings
 Unicode results may contain apostrophe/breathmark and similar errors. It's recommended to use tei-conversion-tools/xslt/alpheios/beta2unicode.xsl instead.
 
+#SUMMARY_DATA
+##Notes
+Also see tracking files in canonical repos
+
