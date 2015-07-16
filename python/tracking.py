@@ -191,6 +191,7 @@ def update_singlefile_trackingjson(urn, editor="unknown", note="", ident="", src
 	if (check_urn_filepathability(urn)== True):
 		data = {}
 		data[urn] = {}
+		#make the editor checking dynamic by checking file?
 		data[urn]["last_editor"] = editor
 		data[urn]["target"] = (urn2filepath(urn))
 		data[urn]["note"] = note
