@@ -1,5 +1,9 @@
-# tei-conversion-tools
+# Overview
 Tools for TEI Conversions to CTS/EpiDoc compliance. For topical guidance through code and help, see [the wiki](https://github.com/PerseusDL/tei-conversion-tools/wiki). If it's not in the wiki, [submit an issue](https://github.com/PerseusDL/tei-conversion-tools/issues).
+
+# Want to Contribute?
+
+Great! See [Helping, Entry Points for Contributing](https://github.com/PerseusDL/tei-conversion-tools/wiki/Helping,-Entry-Points-for-Contributing) for some current needs and guidance on how to tackle them. Non-programmers welcome!
 
 #XSLT
 ## Running XSLT fixes
