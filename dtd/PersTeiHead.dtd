@@ -1,0 +1,320 @@
+<!-- Entities for filling out constant parts of the Perseus headers, and for making sure that global changes can be
+      made to them.   
+     8/21/91 by EM
+     8/29/91 EM some adjustments with the different editorial principles entities for the different texts.
+     6/10/03 CY minor revisions for TEI P4 support -->
+
+<!-- This is the remainder of the title statement, after the Title, which is obviously different for each text.	-->
+
+<!ENTITY fund.AnnCPB
+	'<funder
+n="org:AnnCPB"
+>The Annenberg CPB/Project</funder>' >
+
+<!ENTITY fund.NEA
+	'<funder
+n="org:NEA"
+>National Endowment for the Arts</funder>' >
+
+<!ENTITY fund.NSF
+	'<funder
+n="org:NSF"
+>The National Science Foundation</funder>' >
+
+<!ENTITY fund.NEH
+	'<funder
+n="org:NEH"
+>The National Endowment for the Humanities</funder>' >
+
+<!ENTITY fund.FIPSE
+	'<funder
+n="org:FIPSE"
+>Fund for the Improvement of Postsecondary Education</funder>' >
+
+<!ENTITY fund.Getty
+	'<funder
+n="org:Getty"
+>The Getty Grant program</funder>' >
+
+<!ENTITY fund.DLI2
+	'<funder
+n="org:DLI2"
+>NSF, NEH: Digital Libraries Initiative, Phase 2</funder>' >
+
+<!ENTITY fund.CHLT
+	'<funder
+n="org:CHLT"
+>National Science Foundation International Digital Libraries Program</funder>' >
+
+<!ENTITY fund.MLA
+	'<funder
+n="org:MLA"
+>Modern Language Association</funder>' >
+
+<!ENTITY fund.IMLS
+	'<funder
+n="org:IMLS"
+>Institute of Museum and Library Services</funder>' >
+
+<!ENTITY fund.Berger
+	'<funder
+n="org:Berger"
+>Berger Family Technology Transfer Endowment</funder>' >
+
+<!ENTITY fund.Tufts
+	'<funder
+n="org:Tufts"
+>Tufts University</funder>' >
+
+
+<!ENTITY fund.Google
+	'<funder
+n="org:Google"
+>Google Digital Humanities Awards Program</funder>' >
+
+<!ENTITY fund.Mellon
+	'<funder
+n="org:Mellon"
+>The Mellon Foundation</funder>' >
+
+<!ENTITY fund.USDeptEd
+    '<funder
+n="org:USDeptEd"
+>U.S. Department of Education</funder>' >
+
+<!ENTITY responsibility
+		"<sponsor>Perseus Project, Tufts University</sponsor>
+		<principal>Gregory Crane</principal>
+		<respStmt>
+		<resp>Prepared under the supervision of</resp>
+		<name>Lisa Cerrato</name>
+		<name>William Merrill</name>
+		<name>Elli Mylonas</name>
+		<name>David Smith</name>
+		</respStmt>"						>
+
+<!-- This is the corresponding entity for the Stoa -->
+<!ENTITY Stoa.responsibility
+		"<sponsor>Stoa Consortium, University of Kentucky</sponsor>
+		<principal>A. Ross Scaife</principal>
+		<respStmt>
+		<resp>Prepared under the supervision of</resp>
+		<name>Anne Mahoney</name>
+		</respStmt>"						>
+
+<!-- This is the publication statement that goes in each Perseus text. -->
+<!ENTITY	Perseus.publish
+		"<publicationStmt>
+		<publisher>Trustees of Tufts University</publisher>
+		<pubPlace>Medford, MA</pubPlace>
+		<authority>Perseus Project</authority>
+		</publicationStmt>"						>
+
+<!-- This is the publication statement for Stoa texts. -->
+<!ENTITY	Stoa.publish
+		"<publicationStmt>
+		<publisher>The Stoa Consortium</publisher>
+		<pubPlace>Lexington, KY</pubPlace>
+		<authority>Stoa Consortium</authority>
+		</publicationStmt>"						>
+
+<!-- These are to facilitate marking text acquisitions in the editorialDecl section -->
+<!ENTITY	Perseus.DE
+		"<p>professional data entry</p>"					>
+<!ENTITY	Perseus.OCR
+		"<p>optical character recognition</p>"				>
+
+
+<!-- This is the declaration of Perseus text types. -->
+<!ENTITY	Perseus.class
+	'<taxonomy id="perseus.class">
+	  <bibl>Perseus Project</bibl>
+
+	  <!-- Perseus standard forms -->
+	  <category id="perseus.form.hexameter">
+	    <catDesc>Dactylic Hexameter</catDesc></category>
+	  <category id="perseus.form.drama">
+	    <catDesc>Drama</catDesc></category>
+	  <category id="perseus.form.elegiac">
+	    <catDesc>Elegiac Meter</catDesc></category>
+	  <category id="perseus.form.iambic">
+	    <catDesc>Iambic Meter</catDesc></category>
+	  <category id="perseus.form.lyric">
+	    <catDesc>Lyric Meter</catDesc></category>
+	  <category id="perseus.form.prose">
+	    <catDesc>Prose</catDesc></category>
+
+	  <!-- Perseus standard genres -->
+	  <category id="perseus.genre.biography">
+	    <catDesc>Biography</catDesc></category>
+	  <category id="perseus.genre.comedy">
+	    <catDesc>Comedy</catDesc></category>
+	  <category id="perseus.genre.didactic">
+	    <catDesc>Didactic</catDesc></category>
+	  <category id="perseus.genre.dithyrhamb">
+	    <catDesc>Dithyrhamb</catDesc></category>
+	  <category id="perseus.genre.epic">
+	    <catDesc>Epic</catDesc></category>
+	  <category id="perseus.genre.epinician">
+	    <catDesc>Epinician</catDesc></category>
+	  <category id="perseus.genre.geography">
+	    <catDesc>Geography</catDesc></category>
+	  <category id="perseus.genre.history">
+	    <catDesc>History</catDesc></category>
+	  <category id="perseus.genre.hymn">
+	    <catDesc>Hymn</catDesc></category>
+	  <category id="perseus.genre.letters">
+	    <catDesc>Letters</catDesc></category>
+	  <category id="perseus.genre.mythography">
+	    <catDesc>Mythography</catDesc></category>
+	  <category id="perseus.genre.philosophy">
+	    <catDesc>Philosophy</catDesc></category>
+	  <category id="perseus.genre.rhetoric">
+	    <catDesc>Rhetoric</catDesc></category>
+	  <category id="perseus.genre.verse">
+	    <catDesc>Short Verse</catDesc></category>
+	  <category id="perseus.genre.tragedy">
+	    <catDesc>Tragedy</catDesc></category>
+	  <category id="perseus.genre.travel">
+	    <catDesc>Travel Writing</catDesc></category>
+	</taxonomy>'
+>
+
+<!-- This is the declaration of TLG canonical references. -->
+<!ENTITY	TLG.canon
+	'<taxonomy id="tlg">
+	  <bibl>
+	    <title>
+	      Thesaurus Linguae Graecae canon of Greek authors and works
+	    </title>
+	    <author>Luci Berkowitz</author>
+	    <author>Karl A. Squitier</author>
+	    <date>1986</date>
+	  </bibl>
+	</taxonomy>'
+>
+
+<!-- Editorial principles for drama encoding (english translations)					-->
+<!ENTITY	drama.eng.encode
+		"<EDITORIAL.PRINCIPLES>
+		<Q.TAGS>Entities used for quotation marks in text. Not consistent for single quotes.</Q.TAGS>
+		<ANALYSIS>Choral and non-choral passages have been marked.  Metrical information recorded as attributes throughout.</ANALYSIS>
+		</EDITORIAL.PRINCIPLES>
+		<REFERENCE.SYSTEM>Line numbers according to the Smyth edition have been inserted into the English.</REFERENCE.SYSTEM>
+		<REFERENCE.SYSTEM>Milestone tags with an type attribute of 'card' are used to mark the beginnig of a new HyperCard card in Perseus. The 'N' attribute indicates the line number of the following line.</REFERENCE.SYSTEM>">
+<!-- Editorial principles for drama encoding (greek)							-->
+<!ENTITY	drama.grk.encode
+		"<EDITORIAL.PRINCIPLES>
+		<CORRECTION>Typos in original and in scanned version corrected using morphological parser, by Greg Crane</CORRECTION>
+		<Q.TAGS>Entities used for quotation marks in text. Not consistent for single quotes.</Q.TAGS>
+		<ANALYSIS>Choral and non-choral passages have been marked.  Metrical information recorded as attributes throughout.</ANALYSIS>
+		<OTHER.EDITORIAL>Hyphenation and line breaks have been removed if they are not representing the metrical line.</OTHER.EDITORIAL>
+		</EDITORIAL.PRINCIPLES>
+		<REFERENCE.SYSTEM>Line numbers according to the Loeb edition. They are marked every 5 lines, unless the lines are out of order.</REFERENCE.SYSTEM>
+		<REFERENCE.SYSTEM>Milestone tags with an type attribute of 'card' are used to mark the beginnig of a new HyperCard card in Perseus. The 'N' attribute indicates the line number of the following line.</REFERENCE.SYSTEM>">
+
+<!-- Editorial principles for epic encoding (english translations)					-->
+<!ENTITY	epic.eng.encode
+		"<EDITORIAL.PRINCIPLES>
+		<CORRECTION>Typos in original and in scanned version corrected using morphological parser, by Greg Crane</CORRECTION>
+		<Q.TAGS>Entities used for quotation marks in text. Not guaranteed to match.</Q.TAGS>
+		<ANALYSIS>None.</ANALYSIS>
+		<OTHER.EDITORIAL>Hyphenation and line breaks have been removed if they are not representing the metrical line.</OTHER.EDITORIAL>
+		</EDITORIAL.PRINCIPLES>
+		<REFERENCE.SYSTEM>Line numbers according to the Oxford edition. They are marked every 5 lines, unless the lines are out of order.</REFERENCE.SYSTEM>
+		<REFERENCE.SYSTEM>Milestone tags with an type attribute of 'card' are used to mark the beginnig of a new HyperCard card in Perseus. The 'N' attribute indicates the line number of the following line.</REFERENCE.SYSTEM>">
+
+
+<!-- Editorial principles for epic encoding (greek)							-->
+<!ENTITY	epic.grk.encode
+		"">
+
+<!-- Editorial principles for odes encoding (english translations)					-->
+<!ENTITY	ode.eng.encode
+		"">
+
+<!-- Editorial principles for odes encoding (greek)							-->
+<!ENTITY	ode.grk.encode
+		"">
+
+<!-- Editorial principles for prose encoding (english translations)					-->
+<!ENTITY	prose.eng.encode
+		"">
+
+<!-- Editorial principles for prose encoding (greek)							-->
+<!ENTITY	prose.grk.encode
+		"<EDITORIAL.PRINCIPLES>
+		<CORRECTION>Typos in original and in scanned version corrected using morphological parser, by Greg Crane</CORRECTION>
+		<Q.TAGS>Entities used for quotation marks in text. Not consistent for single quotes.</Q.TAGS>
+		<ANALYSIS>Some speeches and treaties are marked where Crawley marked them in his translation. They are indicated with entities. These special entities are defined in the Greek prose DTD.</ANALYSIS>
+		<SEGMENT.DEMARCATION> Chapter and section numbers according to the Oxford edition. </SEGMENT.DEMARCATION>
+		</EDITORIAL.PRINCIPLES>
+">
+		
+<!-- Editorial principles for orators encoding (english translations)					-->
+<!ENTITY	orator.eng.encode
+		"<EDITORIAL.PRINCIPLES>
+		<Q.TAGS>Entities used for quotation marks in text. Not consistent for single quotes.</Q.TAGS>
+		<ANALYSIS>Choral and non-choral passages have been marked.  Metrical information recorded as attributes throughout.</ANALYSIS>
+		<SEGMENT.DEMARCATION>Each speech, whether partial or complete, is delimited by DIV1 tags.
+		A DIV1 may or may not contain DIV2s, which indicate the formal parts of a forensic speech or individual fragments of a partial speech.</SEGMENT.DEMARCATION>
+		</EDITORIAL.PRINCIPLES>
+		">
+
+<!-- Editorial principles for orators encoding (greek)							-->
+<!ENTITY	orator.grk.encode
+		"">
+
+<!-- Entities for constant parts of the teiHeader in the NewAge collection     -->
+<!ENTITY      NewAge.responsibility
+              "<sponsor>Modernist Journals Project, Brown University</sponsor>
+              <principal>Robert Scholes</principal>
+              <respStmt>
+              <resp>Prepared under the supervision of</resp>
+              <name>Clifford Wulfman</name>
+              </respStmt>"                                            >
+
+
+<!ENTITY      NewAge.fund
+              '<funder>Funder</funder>' >
+
+<!-- This is the publication statement that goes in each New Age text. -->
+<!ENTITY      NewAge.publish
+              "<publicationStmt>
+              <publisher>Modernist Journals Project, Brown University</publisher>
+              <pubPlace>Providence, RI</pubPlace>
+              <authority>Modernist Journals Project</authority>
+              </publicationStmt>"                                             >
+
+<!-- The common source description  -->
+<!ENTITY      NewAge.source
+              "<sourceDesc>
+              <p>New Age Source Description</p>
+              </sourceDesc>"                                                  >
+
+<!-- Entities for constant parts of the teiHeader in the Holinshed Edition     -->
+
+<!ENTITY Ellis.sourceDesc
+"	<biblStruct>
+	  <monogr>
+	    <title>Holinshed's Chronicles of England, Scotland, and Ireland</title>
+	    <author>Raphaell Holinshed</author>
+	    <author>William Harrison</author>
+	    <author>Richard Stanyhurst</author>
+	    <author>John Hooker</author>
+	    <author>Francis Thynne</author>
+	    <author>Abraham Fleming</author>
+	    <author>John Stow</author>
+	    <editor>Henry Ellis</editor>
+	    <edition>Ellis Edition</edition>
+	    <imprint>
+	      <publisher>J. Johnson</publisher>
+	      <pubPlace>London</pubPlace>
+	      <date>1807</date>
+	    </imprint>
+	  </monogr>
+	</biblStruct>">
+
+<!ENTITY Holinshed.publicationStmt
+"<p>Perseus Holinshed</p>" >
+
