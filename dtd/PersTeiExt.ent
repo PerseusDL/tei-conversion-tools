@@ -1,0 +1,150 @@
+<!-- Perseus TEI extension declarations
+
+     Usage: 
+
+        Extensions that are bug fixes to the TEI or necessary
+        additions to it used throughout Perseus are included
+        automatically.  Extensions only used in particular
+        documents or that redefine elements in idiosyncratic
+        ways must be referenced explicitly before they can be
+        used.
+
+        These two classes are identified as follows:
+
+	- elements defined by entities labeled 'INCLUDE' below
+          are included automatically in all documents
+
+        - elements defined by entities labeled 'IGNORE' below
+          must be activated by adding <PERSEUS.FOO % 'INCLUDE'>
+          in the document's DOCTYPE before this file is loaded.
+     
+     Principles:
+
+        Requiring users to load unusual extensions explicitly
+        should make the degree to which a document conforms to
+        'plain' TEI easier to determine.
+-->
+
+
+<!-- New elements -->
+
+
+<!-- lemma: Cite a source via direct text copy rather using TEI's
+     app crit. markup.
+
+     Primarily for Classics texts.
+-->
+<!ENTITY % PERSEUS.LEMMA 'INCLUDE'>
+<![%PERSEUS.LEMMA; [
+<!ENTITY % n.lemma "lemma" >
+<!ENTITY % x.loc '%n.lemma; | ' >
+]]>
+
+
+<!-- tagStart, tagEnd: Overlapping (meta)markup
+
+     Solely to represent overlapping witnesses etc.
+     in Marlowe.
+-->
+<!ENTITY % PERSEUS.OVERLAPPING 'IGNORE'>
+<![%PERSEUS.OVERLAPPING; [
+<!ENTITY % n.tagStart	"tagStart" >
+<!ENTITY % n.tagEnd	"tagEnd" >
+<!ENTITY % x.fragmentary '%n.tagStart; | %n.tagEnd; | ' >
+]]>
+
+
+<!-- Redefined elements -->
+
+
+<!-- note: allow 'note' globally; 
+     see sects. 5.2.6, 6.10.2.5 in TEI P4
+
+     Arguably a bug that the TEI doesn't allow this.
+
+     Simply adding note to x.Incl produces an ambiguous content model.
+
+     Instead we rename TEI's 'note' to an element that will never be used
+     ('perseus-removed-note') and add a new global 'note' (globalNote) element 
+     whose definition is identical to that of TEI's 'note' and is identified
+     in documents as 'note'.
+
+     This avoids the ambiguity by retaining the TEI's element under a new name
+     and including a new one that occurs globally under the TEI element's
+     original name.
+
+     To include the new 'globalNote' we add it to x.Incl and redefine 'notesStmt'.
+-->
+<!ENTITY % PERSEUS.NOTE 'INCLUDE'>
+<![%PERSEUS.NOTE; [
+<!ENTITY % n.note       'perseus-removed-note' >
+<!ENTITY % n.globalNote 'note'>
+<!ENTITY % x.Incl       '%n.globalNote; |' >
+<!ENTITY % notesStmt    'IGNORE'>
+]]>
+
+
+<!-- quote: add 'type' attribute 
+
+     Arguably a bug that the TEI doesn't allow this.
+-->
+<!ENTITY % PERSEUS.QUOTE 'INCLUDE'>
+<![%PERSEUS.QUOTE; [
+<!ENTITY % quote 'IGNORE' >
+]]>
+
+
+<!-- biblStruct: allow multiple analytics 
+
+     Solely for Plutarch.
+-->
+<!ENTITY % PERSEUS.BIBLSTRUCT 'IGNORE'>
+<![%PERSEUS.BIBLSTRUCT; [
+<!ENTITY % biblStruct 'IGNORE'>
+]]>
+
+
+<!-- placeName: add 'type' attribute 
+
+     Extension to render 'placeName' similar to 'name'.
+     Solely for Civil War collection.
+-->
+<!ENTITY % PERSEUS.PLACENAME 'IGNORE'>
+<![%PERSEUS.PLACENAME; [
+<!ENTITY % placeName 'IGNORE'>
+]]>
+
+<!ENTITY % PERSEUS.DATELINE 'INCLUDE'>
+<![%PERSEUS.DATELINE; [
+<!ENTITY % dateline 'IGNORE'>
+]]>
+
+<!ENTITY % PERSEUS.MEASURE 'IGNORE'>
+<![%PERSEUS.MEASURE; [
+<!ENTITY % measure 'IGNORE'>
+]]>
+
+<!ENTITY % PERSEUS.SENSE 'IGNORE'>
+<![%PERSEUS.SENSE; [
+<!ENTITY % sense 'IGNORE'>
+]]>
+
+<!ENTITY % PERSEUS.CIT 'IGNORE'>
+<![%PERSEUS.CIT; [
+<!ENTITY % cit 'IGNORE'>
+]]>
+
+<!ENTITY % PERSEUS.FOREIGN 'IGNORE'>
+<![%PERSEUS.FOREIGN; [
+<!ENTITY % foreign 'IGNORE'>
+]]>
+
+<!ENTITY % PERSEUS.ETYM 'IGNORE'>
+<![%PERSEUS.ETYM; [
+<!ENTITY % etym 'IGNORE'>
+]]>
+
+<!ENTITY % PERSEUS.HI 'IGNORE'>
+<![%PERSEUS.HI; [
+<!ENTITY % hi 'IGNORE'>
+]]>

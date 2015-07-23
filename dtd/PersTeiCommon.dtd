@@ -1,0 +1,57 @@
+<!-- Entities for common Perseus use:
+
+     - Parameter entities for use in TEI header
+     - Perseus TEI extensions
+
+ -->
+
+
+
+
+<!-- Character entities:
+
+     SGML character entities are all SDATA; XML requires Unicode or
+     simple character strings.  We use the TEI's %TEI.XML; entity to
+     determine which character entity definitions to load.
+-->
+
+<!-- XML defs.
+     Note: We define TEI.XML here since this file will be sourced before 
+     the TEI ent files.  Redeclaring it in documents' DOCTYPE will work
+     as before.
+-->
+<!ENTITY % TEI.XML 'IGNORE'>                                           <!-- Defined here b/c this file sourced before teiclas2.ent -->
+<![%TEI.XML;[
+<!ENTITY % PersChars PUBLIC "-//Perseus P4//ENTITIES Perseus Character Entities//EN//XML" "http://www.perseus.tufts.edu/DTD/1.0/PersXML.ent">
+<!ENTITY % ISOlat1 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 1//EN//XML" "http://www.oasis-open.org/docbook/xmlcharent/0.3/iso-lat1.ent">
+<!ENTITY % ISOlat2 PUBLIC "ISO 8879:1986//ENTITIES Added Latin 2//EN//XML" "http://www.oasis-open.org/docbook/xmlcharent/0.3/iso-lat2.ent">
+<!ENTITY % ISOnum PUBLIC "ISO 8879:1986//ENTITIES Numeric and Special Graphic//EN//XML" "http://www.oasis-open.org/docbook/xmlcharent/0.3/iso-num.ent">
+<!ENTITY % ISOpub PUBLIC "ISO 8879:1986//ENTITIES Publishing//EN//XML" "http://www.oasis-open.org/docbook/xmlcharent/0.3/iso-pub.ent">
+<!ENTITY % ISOtech PUBLIC "ISO 8879:1986//ENTITIES General Technical//EN//XML" "http://www.oasis-open.org/docbook/xmlcharent/0.3/iso-tech.ent">
+<!ENTITY % ISOdia PUBLIC "ISO 8879:1986//ENTITIES Diacritical Marks//EN//XML" "http://www.oasis-open.org/docbook/xmlcharent/0.3/iso-dia.ent">
+]]>
+
+<!-- SGML defs.; system IDs are merely placeholders -->
+<!ENTITY % PersChars PUBLIC "-//Perseus P4//ENTITIES Perseus Character Entities//EN" "http://www.perseus.tufts.edu/DTD/1.0/PersSGML.ent">
+<!ENTITY % ISOlat1 PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN" "isolat1.ent">
+<!ENTITY % ISOlat2 PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN" "isolat2.ent">
+<!ENTITY % ISOnum PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN" "isonum.ent">
+<!ENTITY % ISOpub PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN" "isopub.ent">
+<!ENTITY % ISOtech PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN" "isotech.ent">
+<!ENTITY % ISOdia PUBLIC "ISO 8879-1986//ENTITIES Diacritical Marks//EN" "isodia.ent">
+
+<!-- Load files -->
+%PersChars;
+%ISOlat1; 
+%ISOlat2; 
+%ISOnum;
+%ISOpub; 
+%ISOtech;
+%ISOdia;
+
+<!ENTITY % PersTeiHead PUBLIC "-//Perseus P4//DTD Perseus TEI header//EN" "http://www.perseus.tufts.edu/DTD/1.0/PersTeiHead.dtd">
+%PersTeiHead;
+
+<!ENTITY % TEI.extensions.ent PUBLIC "-//Perseus P4//ENTITIES Perseus TEI extensions//EN" "http://www.perseus.tufts.edu/DTD/1.0/PersTeiExt.ent">
+
+<!ENTITY % TEI.extensions.dtd PUBLIC "-//Perseus P4//DTD Perseus TEI extensions//EN" "http://www.perseus.tufts.edu/DTD/1.0/PersTeiExt.dtd">

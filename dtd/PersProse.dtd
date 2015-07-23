@@ -1,0 +1,16 @@
+<!-- Perseus prose TEI modules -->
+
+<!ENTITY % TEI.mixed 'INCLUDE' >
+<!ENTITY % TEI.prose   'INCLUDE' >
+<!ENTITY % TEI.names.dates 'INCLUDE' >
+<!ENTITY % TEI.linking 'INCLUDE' >
+<!ENTITY % PERSEUS.PLACENAME 'INCLUDE' >
+<!ENTITY % PERSEUS.MEASURE 'INCLUDE' >
+<!ENTITY % TEI.transcr 'INCLUDE' >
+<!ENTITY % TEI.figures 'INCLUDE' >
+<!ENTITY % TEI.textcrit 'INCLUDE' >
+<!ENTITY % TEI.verse 'INCLUDE' >
+
+<!ENTITY % PersTei PUBLIC "-//Perseus P4//DTD Perseus TEI Common Declarations//EN" "http://www.perseus.tufts.edu/DTD/1.0/PersTeiCommon.dtd">
+%PersTei;
+
