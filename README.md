@@ -1,5 +1,5 @@
 # Overview
-Tools for converting TEI text in the [Perseus Digital Library](http://www.perseus.tufts.edu/hopper/)  to CTS/EpiDoc compliance. For topical guidance through code and help, see [the wiki](https://github.com/PerseusDL/tei-conversion-tools/wiki). If it's not in the wiki, [submit an issue](https://github.com/PerseusDL/tei-conversion-tools/issues).
+Tools for converting TEI text in the [Perseus Digital Library](http://www.perseus.tufts.edu/hopper/)  to CTS/EpiDoc compliance. For topical guidance through code and help, see [the wiki](https://github.com/PerseusDL/tei-conversion-tools/wiki). If it's not in the wiki, [submit an issue](https://github.com/PerseusDL/tei-conversion-tools/issues/new).
 
 # Want to Contribute?
 
