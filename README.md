@@ -1,5 +1,5 @@
 # Overview
-Tools for converting TEI text in the [Perseus Digital Library](http://www.perseus.tufts.edu/hopper/)  to CTS/EpiDoc compliance. For topical guidance through code and help, see [the wiki](https://github.com/PerseusDL/tei-conversion-tools/wiki). If it's not in the wiki, [submit an issue](https://github.com/PerseusDL/tei-conversion-tools/issues).
+Tools for converting TEI text in the [Perseus Digital Library](http://www.perseus.tufts.edu/hopper/)  to CTS/EpiDoc compliance. For topical guidance through code and help, see [the wiki](https://github.com/PerseusDL/tei-conversion-tools/wiki). If it's not in the wiki, [submit an issue](https://github.com/PerseusDL/tei-conversion-tools/issues/new).
 
 # Want to Contribute?
 
@@ -15,7 +15,7 @@ Great! Don't yet understand what CTS/EpiDoc compliance means? No problem! See [H
 ##Usage message
 Run: `java -jar tei.transformer-assembly-0.1a.jar` or `java -jar tei.transformer.lang_grc.jar` for a usage message
 ##Usage warnings
-Unicode results may contain apostrophe/breathmark and similar errors. It's recommended to use tei-conversion-tools/xslt/alpheios/beta2unicode.xsl instead.
+Unicode results may contain apostrophe/breathmark and similar errors. It's recommended to use tei-conversion-tools/xslt/alpheios/beta2unicode.xsl instead. See [Greek Betacode to Unicode Transformations](https://github.com/PerseusDL/tei-conversion-tools/wiki/Greek-Betacode-to-Unicode-Transformations) for more information. 
 
 #SUMMARY_DATA
 ##Notes
