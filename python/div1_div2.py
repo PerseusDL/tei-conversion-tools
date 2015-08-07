@@ -1,6 +1,6 @@
-""" Div1 / Div2 old Perseus data to Div/Div + RefsDecl converter
+""" Div1 / Div2 / Div3 old Perseus data to Div/Div + RefsDecl converter
 
-Authors : Aaron Plasek and Ariane Pinche
+Authors : Aaron Plasek, Ariane Pinche, Mark Moll, Ana Migowski
 Adaptation : Thibault Clérice
 
 Python 3 Script
@@ -97,6 +97,19 @@ def transform(url, urn, lang):
         div2_subtype = div2.get("type")
         div2.set("subtype", div2_subtype)
         div2.set("type", "textpart")
+        
+    """
+        Change div3 to div, moving their @type to @subtype 
+    """    
+    # We find divs called div2
+    div3_group = parsed.xpath("//div3")
+    for div3 in div3_group:
+        # We change it's tag
+        div3.tag = "div"
+        # To deal with different subtype, we get the former attribute value of type and put it to subtype
+        div3_subtype = div3.get("type")
+        div3.set("subtype", div3_subtype)
+        div3.set("type", "textpart")
 
     """
         Change TEI.2 tag to TEI 
@@ -138,12 +151,22 @@ def transform(url, urn, lang):
         Add refsDecl information for CTS
     """
     citations = []
-    citations.append(
-        MyCapytain.resources.texts.tei.Citation(
-            name=div2_subtype, 
-            refsDecl="/tei:TEI/tei:text/tei:body/div[@type='edition']/div[@n='$1']/div[@n='$2']"
+    # Used only if div3 > 0
+    if len(div3_group) > 0:
+        citations.append(
+            MyCapytain.resources.texts.tei.Citation(
+                name=div3_subtype, 
+                refsDecl="/tei:TEI/tei:text/tei:body/div[@type='edition']/div[@n='$1']/div[@n='$2']/div[@n='$3']"
+            )
         )
-    )
+    # Used only if div2 > 0
+    if len(div2_group) > 0:
+        citations.append(
+            MyCapytain.resources.texts.tei.Citation(
+                name=div2_subtype, 
+                refsDecl="/tei:TEI/tei:text/tei:body/div[@type='edition']/div[@n='$1']/div[@n='$2']"
+            )
+        )
     citations.append(
         MyCapytain.resources.texts.tei.Citation(
             name=div1_subtype, 
@@ -202,6 +225,13 @@ def transform(url, urn, lang):
         for key in tag.attrib:
             del tag.attrib[key]
 
+    """
+        Fix anchored
+    """
+    anchoreds = parsed.xpath("//*[@anchored='yes']")
+    for anchored in anchoreds:
+        anchored.set("anchored", "true")
+
     # Convert to xml
     """ 
         Create a new document so we can have tei namespace 
@@ -211,7 +241,7 @@ def transform(url, urn, lang):
         "{http://www.tei-c.org/ns/1.0}TEI",
         nsmap = { None : "http://www.tei-c.org/ns/1.0" } # Creating a new element allows us to use a default namespace
     )
-
+    New_Root.text = "\n"
     # Add children of old root to New_Root
     New_Root.extend(TEI.getchildren())
 
@@ -222,7 +252,7 @@ def transform(url, urn, lang):
 
     # save xml
     with open ("changed-"+filename, "w") as xmlfile:
-        xmlfile.write(etree.tostring(New_Doc, encoding=str))
+        xmlfile.write("""<?xml version="1.0" encoding="UTF-8"?>\n"""+etree.tostring(New_Doc, encoding=str))
 
 
 if __name__ == '__main__':
