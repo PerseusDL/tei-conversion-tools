@@ -1,4 +1,13 @@
+#Python 3 must be installed and used -- i.e. to run in command line: 'python3 tracking_for_editors urn editor note' ")
+
+#Before using this script for the first time, copy, paste, and run this in your command line: call('curl -O http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng', shell=True) ")
+
+#Run this script from the root repository where you keep the canonical repositories, e.g. if your structure is Development/canonical-greekLit, run from inside Development
+
+#URN should be in form urn:cts:greekLit:tlg0028.tlg004.perseus-eng1
+
 #!/usr/bin/python
+
 
 import json
 from pprint import pprint
@@ -228,6 +237,7 @@ def update_tracking_files_singleUrn(urn, editor, note):
 		print("Composite file can be found at " + "canonical-" + repo_name + "/canonical-" + repo_name + ".tracking.json")
 
 
+print("Python 3 must be installed and used -- i.e. to run in command line: 'python3 tracking_for_editors urn editor note' ")
 print("Before using this script for the first time, copy, paste, and run this in your command line: call('curl -O http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng', shell=True) ")
 print("Run this script from the root repository where you keep the canonical repositories, e.g. if your structure is Development/canonical-greekLit, run from inside Development")
 print("URN should be in form urn:cts:greekLit:tlg0028.tlg004.perseus-eng1")
