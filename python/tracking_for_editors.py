@@ -62,7 +62,6 @@ def list_files(dirList):
 				files.append(os.path.join(root,filename))
 	return files
 
-#test this
 def list_tracking_files(dirList):
 	files = []
 	tracking_files = []
@@ -136,9 +135,9 @@ def check_xml_validity(urn):
 			return False
 
 #def check_breathmarks(f):
-	#Is there a way to actually do this? need to ask Frederik and Giuseppe
+	#needs to be written
 
-#doesn't check the validity of metadata file
+#doesn't check the validity of metadata file--see Hook for that
 def check_cts_metadata(urn):
 	parts = urn.split(":")
 	path = "canonical-"+ parts[2] + "/data/"+ parts[3].split(".")[0] + "/" + parts[3].split(".")[1] 
