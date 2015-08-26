@@ -1,11 +1,9 @@
-#python 3.3.5
+#!/usr/bin/python
 
 import json
 from pprint import pprint
-from lxml import etree as ET
-import lxml.html as LH
+from xml.etree import ElementTree as ET
 import urllib
-from bs4 import BeautifulSoup
 import os
 import subprocess
 from subprocess import call
@@ -13,6 +11,7 @@ from subprocess import Popen, PIPE
 import shlex
 import codecs
 import time
+import argparse
 
 # urns in form urn:cts:greekLit:tlg0028.tlg004.perseus-eng1
 
@@ -228,13 +227,17 @@ def update_tracking_files_singleUrn(urn, editor, note):
 		print("Individual file can be found at " + tracking_fpath)
 		print("Composite file can be found at " + "canonical-" + repo_name + "/canonical-" + repo_name + ".tracking.json")
 
-print("Before using this script for the first time, copy, paste, and run this in your command line: call('curl -O http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng', shell=True) ")
 
+print("Before using this script for the first time, copy, paste, and run this in your command line: call('curl -O http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng', shell=True) ")
+print("Run this script from the root repository where you keep the canonical repositories, e.g. if your structure is Development/canonical-greekLit, run from inside Development")
 print("URN should be in form urn:cts:greekLit:tlg0028.tlg004.perseus-eng1")
 
-print("Run this script from the root repository where you keep the canonical repositories, e.g. if your structure is Development/canonical-greekLit, run from inside Development")
-
-#update_tracking_files_singleUrn(urn, editor, note)
+parser = argparse.ArgumentParser()
+parser.add_argument("urn", help="URN should be in form urn:cts:greekLit:tlg0028.tlg004.perseus-eng1")
+parser.add_argument("editor", help="This should be the name of the last editor of the file")
+parser.add_argument("note", help="This should be any specific notes on the current state of the file")
+args = parser.parse_args()
+update_tracking_files_singleUrn(args.urn, args.editor, args.note)
 
 
 
