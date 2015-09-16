@@ -1,0 +1,53 @@
+footer {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  clear: both;
+}
+footer {
+  clear: both;
+  border-top: 1px solid #800000;
+  margin-top: 2em;
+}
+
+#logo {
+    display: block;
+    background: url(http://www.perseus.tufts.edu/img/new-rm-logo2.gif) no-repeat;
+    height: 80px;
+    width: 100px;
+    float: left;
+    margin: 3px;
+}
+
+#cts-passage-uri {
+    border-top: 1px solid #000;
+    font-size: smaller;
+    color: gray;
+    clear: both;
+}
+#cts-citation-scheme {
+    font-size: smaller;    color: gray;
+    border-bottom: 1px solid #000;
+}
+
+.data-label {
+    font-style: italic;
+    padding-right: .2em;
+    color: gray;
+}
+
+.cc_rights {
+    clear: both;
+    font-size: x-small;
+    padding: 2px;
+    margin-top: 1em;
+}
+
+#smith-bio {
+    font-size: smaller;
+    background-color: #EEE;
+}
+#smith-bio:before {
+    content: "Perseus ID: ";
+    font-style: italic;
+    
+}
