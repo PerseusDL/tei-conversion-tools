@@ -11,7 +11,7 @@
     
     <xsl:template match="text()">
         <xsl:choose>
-            <xsl:when test="(ancestor::*[local-name(.) = 'foreign' and @xml:lang='greek']) or
+            <xsl:when test="(ancestor::*[local-name(.) = 'foreign' and (@xml:lang='greek' or @lang='greek')]) or
                 ancestor::*[local-name(.) = 'text'] and not(ancestor::*[local-name(.) = 'note']) 
                 and not(ancestor::*[local-name(.) = 'title']) and not(ancestor::*[local-name(.) = 'bibl']) and 
                 (not(ancestor-or-self::*[@xml:lang or @lang]) or not(ancestor-or-self::*[@xml:lang !='greek' or @lang != 'greek']))">
