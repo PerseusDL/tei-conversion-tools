@@ -24,7 +24,7 @@
     
     <xsl:template match="@span|@lemma|@form">
         <xsl:choose>
-            <xsl:when test="ancestor::treebank[@xml:lang='grc' or @xml:lang='greek']">
+            <xsl:when test="ancestor::treebank[@lang='grc' or @lang='greek' or @xml:lang='grc' or @xml:lang='greek']">
                 <xsl:attribute name="{local-name(.)}">
                     <xsl:call-template name="beta-to-uni">
                         <xsl:with-param name="a_in" select="."/>                    
