@@ -4,6 +4,13 @@
     exclude-result-prefixes="xs"
     version="2.0">
     <xsl:output indent="yes"></xsl:output>
+    <xsl:param name="lang" select="'lat'"/>
+    <xsl:variable name="namespace">
+        <xsl:choose>
+            <xsl:when test="$lang eq 'lat'">latinLit</xsl:when>
+            <xsl:otherwise>greekLit</xsl:otherwise>
+        </xsl:choose>
+    </xsl:variable>
     <xsl:template match="node()|@*|comment()">
         <!-- Copy the current node -->
         <xsl:copy>
@@ -19,19 +26,29 @@
     </xsl:template>
     <xsl:template match="revisionDesc">
         <xsl:element name="revisionDesc">
+        <xsl:apply-templates select="node()|comment()" />
+        <!--xsl:element name="revisionDesc">
             <xsl:element name="change">
                 <xsl:attribute name="who" select="'gcrane'" />
                 <xsl:attribute name="when" select="concat(.//date/text(), '-01-01')" />
                 <xsl:value-of select=".//resp/text()"/>
             </xsl:element>
+        </xsl:element-->
         </xsl:element>
     </xsl:template>
+    
+    <xsl:template match="text">
+        <xsl:element name="text">
+            <xsl:attribute name="xml:lang"><xsl:value-of select="@lang"/></xsl:attribute>
+        </xsl:element>
+    </xsl:template>
+    
     <xsl:template match="body">
         <xsl:element name="body">
             <xsl:element name="div">
-                <xsl:attribute name="xml:lang" select="'lat'" />
+                <xsl:attribute name="xml:lang" select="$lang" />
                 <xsl:attribute name="type" select="'edition'" />
-                <xsl:attribute name="n" select="concat('urn:cts:latinLit:',  replace(tokenize(base-uri(.), '/')[last()], '.xml', ''))" />
+                <xsl:attribute name="n" select="concat('urn:cts:', $namespace, ':',  replace(tokenize(base-uri(.), '/')[last()], '.xml', ''))" />
                 
                 <xsl:apply-templates select="node()|comment()" />
             </xsl:element>
@@ -46,9 +63,9 @@
                     <p>This pointer pattern extracts line</p>
                 </cRefPattern>
             </refsDecl>
-            <refsDecl n="TEI.2">
-                <refState unit="card"/>
-            </refsDecl>
+            <xsl:apply-templates select="refsDecl"/>
+            <xsl:apply-templates select="comment()"/>
+            <xsl:apply-templates select="node()[local-name(.) != 'refsDecl']"/>
         </encodingDesc>
     </xsl:template>
     <xsl:template match="language">
@@ -57,12 +74,16 @@
           <xsl:apply-templates select="node()|comment()"/>
         </xsl:element>
     </xsl:template>
+    
+    <!-- this needs work before general use because if there is no who attribute we end up with invalid data 
     <xsl:template match="sp">
         <xsl:element name="sp">
           <xsl:attribute name="who" select="concat('#', @who)" />
           <xsl:apply-templates select="node()|comment()"/>
         </xsl:element>
     </xsl:template>
+    -->
+    
     <xsl:template match="div1|div2|div3">
         <xsl:element name="div">
             <xsl:apply-templates select="@*"/>
@@ -100,4 +121,15 @@
             <xsl:apply-templates select="node()|comment()"/>
         </xsl:element>
     </xsl:template>
+    <xsl:template match="castList">
+        <listPerson>
+            <xsl:apply-templates select="node()|comment()"/>
+        </listPerson>
+    </xsl:template>
+    <xsl:template match="castItem">
+        <person>
+            <persName role="{roleDesc/text()}"><xsl:value-of select="role"/></persName>
+        </person>
+    </xsl:template>
+    
 </xsl:stylesheet>
