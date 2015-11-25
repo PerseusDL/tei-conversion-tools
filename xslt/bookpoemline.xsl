@@ -41,14 +41,19 @@
         <encodingDesc>
             <refsDecl n="CTS">
                 <cRefPattern n="line"
-                    matchPattern="(\w+)"
-                    replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
-                    <p>This pointer pattern extracts line</p>
+                    matchPattern="(\w+).(\w+).(\w+)"
+                    replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:l[@n='$2'])">
+                    <p>This pointer pattern extracts book and poem and line</p>
                 </cRefPattern>
                 <cRefPattern n="poem"
                     matchPattern="(\w+).(\w+)"
+                    replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+                    <p>This pointer pattern extracts poem and book</p>
+                </cRefPattern>
+                <cRefPattern n="book"
+                    matchPattern="(\w+)"
                     replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-                    <p>This pointer pattern extracts poem and line</p>
+                    <p>This pointer pattern extracts book</p>
                 </cRefPattern>
             </refsDecl>
             <refsDecl n="TEI.2">
@@ -58,14 +63,14 @@
     </xsl:template>
     <xsl:template match="language">
         <xsl:element name="language">
-          <xsl:attribute name="ident" select="@id"/>
-          <xsl:apply-templates select="node()|comment()"/>
+            <xsl:attribute name="ident" select="@id"/>
+            <xsl:apply-templates select="node()|comment()"/>
         </xsl:element>
     </xsl:template>
     <xsl:template match="sp">
         <xsl:element name="sp">
-          <xsl:attribute name="who" select="concat('#', @who)" />
-          <xsl:apply-templates select="node()|comment()"/>
+            <xsl:attribute name="who" select="concat('#', @who)" />
+            <xsl:apply-templates select="node()|comment()"/>
         </xsl:element>
     </xsl:template>
     <xsl:template match="div1|div2|div3">
@@ -91,15 +96,15 @@
     </xsl:template>
     <xsl:template match="gap">
         <xsl:element name="gap">
-           <xsl:choose>
-               <xsl:when test="parent::node()/text() = '*'">
-                   <xsl:attribute name="reason" select="'lost'" />
-               </xsl:when>
-               <xsl:otherwise>
-                   <xsl:attribute name="reason" select="'omitted'" />
-               </xsl:otherwise>
-           </xsl:choose>
-         <xsl:apply-templates select="node()|@*|comment()"/>
+            <xsl:choose>
+                <xsl:when test="parent::node()/text() = '*'">
+                    <xsl:attribute name="reason" select="'lost'" />
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:attribute name="reason" select="'omitted'" />
+                </xsl:otherwise>
+            </xsl:choose>
+            <xsl:apply-templates select="node()|@*|comment()"/>
         </xsl:element>
     </xsl:template>
     <xsl:template match="TEI.2">
