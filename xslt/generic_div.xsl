@@ -41,12 +41,12 @@
         <encodingDesc>
             <refsDecl n="CTS">
                 <cRefPattern n="line"
-                    matchPattern="(\w+)"
+                    matchPattern="(\w+).(\w+)"
                     replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
                     <p>This pointer pattern extracts line</p>
                 </cRefPattern>
                 <cRefPattern n="poem"
-                    matchPattern="(\w+).(\w+)"
+                    matchPattern="(\w+)"
                     replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
                     <p>This pointer pattern extracts poem and line</p>
                 </cRefPattern>

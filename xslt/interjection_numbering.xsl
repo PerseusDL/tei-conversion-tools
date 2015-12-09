@@ -5,12 +5,13 @@
     exclude-result-prefixes="xs"
     version="2.0">
     
-    <xsl:template match="*:l">
-        <xsl:variable name="container" select="ancestor::*:div[@subtype='poem']" />
-        <xsl:variable name="seq" select="$container//*:l" />
-        <xsl:variable name="n" select="index-of($seq, current())"/>
+    <xsl:template match="tei:l[not(@n) and @part]">
+        <xsl:variable name="container" select="ancestor::tei:div[@type='edition']" />
+        <xsl:variable name="seq" select="$container//tei:l" />
+        <xsl:variable name="n" select="index-of($seq, current())-1"/>
         <xsl:copy>
-            <xsl:attribute name="n" select="$n"/>
+            <xsl:attribute name="n" select="concat($seq[$n]/@n, 'b')"/>
+            <xsl:attribute name="part" select="current()/@part"/>
             <xsl:apply-templates  select="node()|comment()"/>
         </xsl:copy>
     </xsl:template>
