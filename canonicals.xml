@@ -1,0 +1,1439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0001/tlg001/tlg0001.tlg001.perseus-grc2.xml </path>
+        <refsDecl xmlns="http://www.tei-c.org/ns/1.0" id="CTS">
+            <cRefPattern matchPattern="(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\']/tei:l[@n=\'$2\'])">
+                <p>This pointer pattern extracts book and line</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts book</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-latinLit/data/phi1276/phi001/phi1276.phi001.perseus-lat2.xml </path>
+        <refsDecl xmlns="http://www.tei-c.org/ns/1.0" id="CTS">
+            <cRefPattern matchPattern="(\\w+).(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\']/tei:div[@n=\'$2\']/tei:l[@n=\'$3\'])">
+                <p>This pointer pattern extracts book and poem and line</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\']/tei:div2[@n=\'$2\'])">
+                <p>This pointer pattern extracts book and poem</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div1[@n=\'$1\'])">
+                <p>This pointer pattern extracts book</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-latinLit/data/phi1294/phi002/phi1294.phi002.perseus-lat2.xml </path>
+        <refsDecl xmlns="http://www.tei-c.org/ns/1.0" id="CTS">
+            <cRefPattern matchPattern="(\\w+).(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\']/tei:div[@n=\'$2\']/tei:l[@n=\'$3\'])">
+                <p>This pointer pattern extracts book and poem and line</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\']/tei:div2[@n=\'$2\'])">
+                <p>This pointer pattern extracts book and poem</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div1[@n=\'$1\'])">
+                <p>This pointer pattern extracts book</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0008/tlg001/tlg0008.tlg001.perseus-grc3.xml </path>
+        <refsDecl xmlns="http://www.tei-c.org/ns/1.0" id="CTS">
+            <cRefPattern matchPattern="(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\']/tei:div[@n=\'$2\'])">
+                <p>This pointer pattern extracts Book and Chapter</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts Book</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0008/tlg001/tlg0008.tlg001.perseus-grc4.xml </path>
+        <refsDecl xmlns="http://www.tei-c.org/ns/1.0" id="CTS">
+            <cRefPattern matchPattern="(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\']/tei:div[@n=\'$2\'])">
+                <p>This pointer pattern extracts Book and Chapter</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts Book</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0008/tlg001/tlg0008.tlg001.perseus-grc1.xml </path>
+        <refsDecl id="CTS">
+            <cRefPattern matchPattern="(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n=\'$1\']/tei:div[@n=\'$2\'])">
+                <p>This pointer pattern extracts Book and Chapter</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts Book</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0008/tlg001/tlg0008.tlg001.perseus-grc2.xml </path>
+        <refsDecl xmlns="http://www.tei-c.org/ns/1.0" id="CTS">
+            <cRefPattern matchPattern="(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n=\'$1\']/tei:div[@n=\'$2\'])">
+                <p>This pointer pattern extracts Book and Chapter</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts Book</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0008/tlg001/tlg0008.tlg001.perseus-eng2.xml </path>
+        <refsDecl xmlns="http://www.tei-c.org/ns/1.0" id="CTS">
+            <cRefPattern matchPattern="(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\']/tei:div[@n=\'$2\'])">
+                <p>This pointer pattern extracts Book and Chapter</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@type=\'book\' and @n=\'$1\'])">
+                <p>This pointer pattern extracts Book</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0008/tlg001/tlg0008.tlg001.perseus-eng1.xml </path>
+        <refsDecl xmlns="http://www.tei-c.org/ns/1.0" id="CTS">
+            <cRefPattern matchPattern="(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type=\'book\' and @n=\'$1\']/tei:div[@n=\'$2\'])">
+                <p>This pointer pattern extracts Book and Chapter</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type=\'book\' and @n=\'$1\'])">
+                <p>This pointer pattern extracts Book</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0012/tlg001/tlg0012.tlg001.perseus-grc1.xml </path>
+        <refsDecl id="CTS">
+            <cRefPattern matchPattern="(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div1[@n=\'$1\']//tei:l[@n=\'$2\'])">
+                <p>This pointer pattern extracts Book and Line</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div1[@n=\'$1\'])">
+                <p>This pointer pattern extracts Book</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0012/tlg001/tlg0012.tlg001.perseus-grc2.xml </path>
+        <refsDecl xmlns="http://www.tei-c.org/ns/1.0" id="CTS">
+            <cRefPattern matchPattern="(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\']//tei:l[@n=\'$2\'])">
+                <p>This pointer pattern extracts Book and Line</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts Book</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0012/tlg001/tlg0012.tlg001.perseus-eng1.xml </path>
+        <refsDecl id="CTS">
+            <cRefPattern matchPattern="(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div1[@n=\'$1\']/tei:div2[@n=\'$2\'])">
+                <p>This pointer pattern extracts book and line</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div1[@n=\'$1\'])">
+                <p>This pointer pattern extracts book</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0012/tlg002/tlg0012.tlg002.perseus-grc1.xml </path>
+        <refsDecl id="CTS">
+            <cRefPattern matchPattern="(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div1[@n=\'$1\']//tei:l[@n=\'$2\'])">
+                <p>This pointer pattern extracts Book and Line</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div1[@n=\'$1\'])">
+                <p>This pointer pattern extracts Book</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0012/tlg002/tlg0012.tlg002.perseus-eng1.xml </path>
+        <refsDecl id="CTS">
+            <cRefPattern matchPattern="(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div1[@n=\'$1\']/tei:div2[@n=\'$2\'])">
+                <p>This pointer pattern extracts book and line</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div1[@n=\'$1\'])">
+                <p>This pointer pattern extracts book</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0013/tlg002/tlg0013.tlg002.perseus-grc1.xml </path>
+        <refsDecl xmlns="http://www.tei-c.org/ns/1.0" id="CTS">
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body//tei:l[@n=\'$1\'])">
+                <p>This pointer pattern extracts line</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0013/tlg002/tlg0013.tlg002.perseus-grc2.xml </path>
+        <refsDecl xmlns="http://www.tei-c.org/ns/1.0" id="CTS">
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body//tei:l[@n=\'$1\'])">
+                <p>This pointer pattern extracts line</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0013/tlg002/tlg0013.tlg002.perseus-eng1.xml </path>
+        <refsDecl xmlns="http://www.tei-c.org/ns/1.0" id="CTS">
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts card</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0013/tlg003/tlg0013.tlg003.perseus-eng1.xml </path>
+        <refsDecl xmlns="http://www.tei-c.org/ns/1.0" id="CTS">
+            <cRefPattern matchPattern="(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div[@n=\'$1\']/tei:div[@n=\'$2\'])">
+                <p>This pointer pattern extracts hymn and card</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts hymn</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0013/tlg005/tlg0013.tlg005.perseus-eng1.xml </path>
+        <refsDecl xmlns="http://www.tei-c.org/ns/1.0" id="CTS">
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts card</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0013/tlg007/tlg0013.tlg007.perseus-eng1.xml </path>
+        <refsDecl id="CTS">
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div1[@n=\'$1\'])">
+                <p>This pointer pattern extracts card</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0013/tlg019/tlg0013.tlg019.perseus-eng1.xml </path>
+        <refsDecl id="CTS">
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts line</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0013/tlg028/tlg0013.tlg028.perseus-eng1.xml </path>
+        <refsDecl xmlns="http://www.tei-c.org/ns/1.0" id="CTS">
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts card</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0013/tlg031/tlg0013.tlg031.perseus-eng1.xml </path>
+        <refsDecl id="CTS">
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts line</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0020/tlg001/tlg0020.tlg001.perseus-grc2.xml </path>
+        <refsDecl xmlns="http://www.tei-c.org/ns/1.0" id="CTS">
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div//tei:l[@n=\'$1\'])">
+                <p>This pointer pattern extracts line</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0020/tlg001/tlg0020.tlg001.perseus-eng2.xml </path>
+        <refsDecl xmlns="http://www.tei-c.org/ns/1.0" id="CTS">
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div//tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts card</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0016/tlg001/tlg0016.tlg001.perseus-grc1.xml </path>
+        <refsDecl id="CTS">
+            <cRefPattern matchPattern="(\\w+).(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div1[@n=\'$1\']/tei:div2[@n=\'$2\']/tei:div3[@n=\'$3\'])">
+                <p>This pointer pattern extracts Book and Chapter and Section</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div1[@n=\'$1\']/tei:div2[@n=\'$2\'])">
+                <p>This pointer pattern extracts Book and Chapter</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div1[@n=\'$1\'])">
+                <p>This pointer pattern extracts Book</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0003/tlg001/tlg0003.tlg001.perseus-grc1.xml </path>
+        <refsDecl xmlns="http://www.tei-c.org/ns/1.0" id="CTS">
+            <cRefPattern matchPattern="(\\w+).(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n=\'$1\']/tei:div[@n=\'$2\']/tei:div[@n=\'$3\'])">
+                <p>This pointer pattern extracts Book and Chapter and Section</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n=\'$1\']/tei:div[@n=\'$2\'])">
+                <p>This pointer pattern extracts Book and Chapter</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts Book</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0003/tlg001/tlg0003.tlg001.perseus-grc2.xml </path>
+        <refsDecl xmlns="http://www.tei-c.org/ns/1.0" id="CTS">
+            <cRefPattern matchPattern="(\\w+).(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\']/tei:div[@n=\'$2\']/tei:div[@n=\'$3\'])">
+                <p>This pointer pattern extracts Book and Chapter and Section</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\']/tei:div[@n=\'$2\'])">
+                <p>This pointer pattern extracts Book and Chapter</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts Book</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0003/tlg001/tlg0003.tlg001.perseus-eng4.xml </path>
+        <refsDecl xmlns="http://www.tei-c.org/ns/1.0" id="CTS">
+            <cRefPattern matchPattern="(\\w+).(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\']/tei:div[@n=\'$2\']/tei:div[@n=\'$3\'])">
+                <p>This pointer pattern extracts Book and Chapter and Section</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\']/tei:div[@n=\'$2\'])">
+                <p>This pointer pattern extracts Book and Chapter</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts Book</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0003/tlg001/tlg0003.tlg001.perseus-eng5.xml </path>
+        <refsDecl xmlns="http://www.tei-c.org/ns/1.0" id="CTS">
+            <cRefPattern matchPattern="(\\w+).(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\']/tei:div[@n=\'$2\']/tei:div[@n=\'$3\'])">
+                <p>This pointer pattern extracts Book and Chapter and Section</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\']/tei:div[@n=\'$2\'])">
+                <p>This pointer pattern extracts Book and Chapter</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts Book</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0003/tlg001/tlg0003.tlg001.perseus-eng6.xml </path>
+        <refsDecl xmlns="http://www.tei-c.org/ns/1.0" id="CTS">
+            <cRefPattern matchPattern="(\\w+).(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\']/tei:div[@n=\'$2\']/tei:div[@n=\'$3\'])">
+                <p>This pointer pattern extracts Book and Chapter and Section</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\']/tei:div[@n=\'$2\'])">
+                <p>This pointer pattern extracts Book and Chapter</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts Book</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0003/tlg001/tlg0003.tlg001.opp-ger1.xml </path>
+        <refsDecl xmlns="http://www.tei-c.org/ns/1.0" id="CTS">
+            <cRefPattern matchPattern="(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\']/tei:div[@n=\'$2\'])">
+                <p>This pointer pattern extracts Book and Chapter</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts Book</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0003/tlg001/tlg0003.tlg001.opp-fre1.xml </path>
+        <refsDecl xmlns="http://www.tei-c.org/ns/1.0" id="CTS">
+            <cRefPattern matchPattern="(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\']/tei:div[@n=\'$2\'])">
+                <p>This pointer pattern extracts Book and Chapter</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts Book</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0006/tlg001/tlg0006.tlg001.perseus-grc1.xml </path>
+        <refsDecl xmlns="http://www.tei-c.org/ns/1.0" id="CTS">
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div//tei:l[@n=\'$1\'])">
+                <p>This pointer pattern extracts line</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0006/tlg009/tlg0006.tlg009.perseus-grc2.xml </path>
+        <refsDecl xmlns="http://www.tei-c.org/ns/1.0" id="CTS">
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div//tei:l[@n=\'$1\'])">
+                <p>This pointer pattern extracts line</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0006/tlg009/tlg0006.tlg009.perseus-eng1.xml </path>
+        <refsDecl xmlns="http://www.tei-c.org/ns/1.0" id="CTS">
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div//tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts card</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0019/tlg003/tlg0019.tlg003.perseus-grc2.xml </path>
+        <refsDecl xmlns="http://www.tei-c.org/ns/1.0" id="CTS">
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body//tei:l[@n=\'$1\'])">
+                <p>This pointer pattern extracts line</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0019/tlg003/tlg0019.tlg003.perseus-eng1.xml </path>
+        <refsDecl xmlns="http://www.tei-c.org/ns/1.0" id="CTS">
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div//tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts line</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0019/tlg006/tlg0019.tlg006.perseus-grc2.xml </path>
+        <refsDecl xmlns="http://www.tei-c.org/ns/1.0" id="CTS">
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body//tei:l[@n=\'$1\'])">
+                <p>This pointer pattern extracts line</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0019/tlg006/tlg0019.tlg006.perseus-eng1.xml </path>
+        <refsDecl xmlns="http://www.tei-c.org/ns/1.0" id="CTS">
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div//tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts card</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0019/tlg007/tlg0019.tlg007.perseus-grc2.xml </path>
+        <refsDecl xmlns="http://www.tei-c.org/ns/1.0" id="CTS">
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body//tei:l[@n=\'$1\'])">
+                <p>This pointer pattern extracts line</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0019/tlg010/tlg0019.tlg010.perseus-grc2.xml </path>
+        <refsDecl xmlns="http://www.tei-c.org/ns/1.0" id="CTS">
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body//tei:l[@n=\'$1\'])">
+                <p>This pointer pattern extracts line</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0032/tlg001/tlg0032.tlg001.perseus-grc1.xml </path>
+        <refsDecl id="CTS">
+            <cRefPattern matchPattern="(\\w+).(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div1[@n=\'$1\']/tei:div2[@n=\'$2\']/tei:div3[@n=\'$3\'])">
+                <p>This pointer pattern extracts book and chapter and section</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div1[@n=\'$1\']/tei:div2[@n=\'$2\'])">
+                <p>This pointer pattern extracts book and chapter</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div1[@n=\'$1\'])">
+                <p>This pointer pattern extracts book</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0032/tlg002/tlg0032.tlg002.perseus-grc1.xml </path>
+        <refsDecl id="CTS">
+            <cRefPattern matchPattern="(\\w+).(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div1[@n=\'$1\']/tei:div2[@n=\'$2\']/tei:div3[@n=\'$3\'])">
+                <p>This pointer pattern extracts book and chapter and section</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div1[@n=\'$1\']/tei:div2[@n=\'$2\'])">
+                <p>This pointer pattern extracts book and chapter</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div1[@n=\'$1\'])">
+                <p>This pointer pattern extracts book</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0032/tlg006/tlg0032.tlg006.perseus-grc1.xml </path>
+        <refsDecl id="CTS">
+            <cRefPattern matchPattern="(\\w+).(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div1[@n=\'$1\']/tei:div2[@n=\'$2\']/tei:div3[@n=\'$3\'])">
+                <p>This pointer pattern extracts book and chapter and section</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div1[@n=\'$1\']/tei:div2[@n=\'$2\'])">
+                <p>This pointer pattern extracts book and chapter</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div1[@n=\'$1\'])">
+                <p>This pointer pattern extracts book</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0032/tlg007/tlg0032.tlg007.perseus-grc1.xml </path>
+        <refsDecl id="CTS">
+            <cRefPattern matchPattern="(\\w+).(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div1[@n=\'$1\']/tei:div2[@n=\'$2\']/tei:div3[@n=\'$3\'])">
+                <p>This pointer pattern extracts book and chapter and section</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div1[@n=\'$1\']/tei:div2[@n=\'$2\'])">
+                <p>This pointer pattern extracts book and chapter</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div1[@n=\'$1\'])">
+                <p>This pointer pattern extracts book</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0032/tlg005/tlg0032.tlg005.perseus-grc1.xml </path>
+        <refsDecl id="CTS">
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts section</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0059/tlg030/tlg0059.tlg030.perseus-grc2.xml </path>
+        <refsDecl xmlns="http://www.tei-c.org/ns/1.0" id="CTS">
+            <cRefPattern matchPattern="(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\']/tei:div[@n=\'$2\'])">
+                <p>This pointer pattern extracts book and section</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts book</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0059/tlg030/tlg0059.tlg030.perseus-grc1.xml </path>
+        <refsDecl id="CTS">
+            <cRefPattern matchPattern="(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div[@n=\'$1\']/tei:div[@n=\'$2\'])">
+                <p>This pointer pattern extracts book and section</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts book</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0059/tlg030/tlg0059.tlg030.perseus-eng2.xml </path>
+        <refsDecl xmlns="http://www.tei-c.org/ns/1.0" id="CTS">
+            <cRefPattern matchPattern="(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\']/tei:div[@n=\'$2\'])">
+                <p>This pointer pattern extracts book and section</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts book</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0059/tlg030/tlg0059.tlg030.perseus-eng1.xml </path>
+        <refsDecl id="CTS">
+            <cRefPattern matchPattern="(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div[@n=\'$1\']/tei:div[@n=\'$2\'])">
+                <p>This pointer pattern extracts book and section</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts book</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0059/tlg002/tlg0059.tlg002.perseus-grc1.xml </path>
+        <refsDecl id="CTS">
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts section</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0059/tlg003/tlg0059.tlg003.perseus-grc1.xml </path>
+        <refsDecl id="CTS">
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts section</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0059/tlg006/tlg0059.tlg006.perseus-grc1.xml </path>
+        <refsDecl id="CTS">
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts section</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0059/tlg010/tlg0059.tlg010.perseus-grc1.xml </path>
+        <refsDecl id="CTS">
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts section</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0059/tlg011/tlg0059.tlg011.perseus-grc1.xml </path>
+        <refsDecl id="CTS">
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts section</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0059/tlg011/tlg0059.tlg011.perseus-eng1.xml </path>
+        <refsDecl id="CTS">
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts section</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0059/tlg012/tlg0059.tlg012.perseus-grc1.xml </path>
+        <refsDecl id="CTS">
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts section</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0059/tlg013/tlg0059.tlg013.perseus-grc1.xml </path>
+        <refsDecl id="CTS">
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts section</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0059/tlg014/tlg0059.tlg014.perseus-grc1.xml </path>
+        <refsDecl id="CTS">
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts section</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0059/tlg027/tlg0059.tlg027.perseus-grc1.xml </path>
+        <refsDecl id="CTS">
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts section</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0059/tlg027/tlg0059.tlg027.perseus-eng1.xml </path>
+        <refsDecl id="CTS">
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts section</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0059/tlg031/tlg0059.tlg031.perseus-eng1.xml </path>
+        <refsDecl id="CTS">
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts card</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0059/tlg004/tlg0059.tlg004.perseus-eng1.xml </path>
+        <refsDecl id="CTS">
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts section</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0059/tlg022/tlg0059.tlg022.perseus-eng1.xml </path>
+        <refsDecl id="CTS">
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts card</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0086/tlg029/tlg0086.tlg029.perseus-grc1.xml </path>
+        <refsDecl id="CTS">
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts bekker page</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0086/tlg034/tlg0086.tlg034.digicorpus-grc1.xml </path>
+        <refsDecl xmlns="http://www.tei-c.org/ns/1.0" id="CTS">
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts chapter</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0086/tlg034/tlg0086.tlg034.digicorpus-ara1.xml </path>
+        <refsDecl xmlns="http://www.tei-c.org/ns/1.0" id="CTS">
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts chapter</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0086/tlg035/tlg0086.tlg035.perseus-grc1.xml </path>
+        <refsDecl id="CTS">
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts bekker page</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0086/tlg035/tlg0086.tlg035.perseus-eng1.xml </path>
+        <refsDecl id="CTS">
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts bekker page</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0086/tlg010/tlg0086.tlg010.perseus-grc1.xml </path>
+        <refsDecl id="CTS">
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts bekker page</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-latinLit/data/phi0474/phi002/phi0474.phi002.perseus-lat1.xml </path>
+        <refsDecl xmlns="http://www.tei-c.org/ns/1.0" id="CTS">
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts chapter</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-latinLit/data/phi0474/phi024/phi0474.phi024.perseus-lat1.xml </path>
+        <refsDecl id="CTS">
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts section</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-latinLit/data/phi0474/phi013/phi0474.phi013.perseus-lat1.xml </path>
+        <refsDecl xmlns="http://www.tei-c.org/ns/1.0" id="CTS">
+            <cRefPattern matchPattern="(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n=\'$1\']/tei:div[@n=\'$2\'])">
+                <p>This pointer pattern extracts speech and chapter</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts speech</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-latinLit/data/phi1348/abo012/phi1348.abo012.perseus-lat1.xml </path>
+        <refsDecl id="CTS">
+            <cRefPattern matchPattern="(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n=\'$1\']/tei:div[@n=\'$2\'])">
+                <p>This pointer pattern extracts chapter and section</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts chapter</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0028/tlg001/tlg0028.tlg001.perseus-grc1.xml </path>
+        <refsDecl id="CTS">
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts section</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0028/tlg005/tlg0028.tlg005.perseus-grc1.xml </path>
+        <refsDecl xmlns="http://www.tei-c.org/ns/1.0" id="CTS">
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts section</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0062/tlg020/tlg0062.tlg020.perseus-grc1.xml </path>
+        <refsDecl xmlns="http://www.tei-c.org/ns/1.0" id="CTS">
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts section</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0062/tlg027/tlg0062.tlg027.perseus-grc2.xml </path>
+        <refsDecl xmlns="http://www.tei-c.org/ns/1.0" id="CTS">
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts section</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0062/tlg067/tlg0062.tlg067.perseus-grc1.xml </path>
+        <refsDecl xmlns="http://www.tei-c.org/ns/1.0" id="CTS">
+            <cRefPattern matchPattern="(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n=\'$1\']/tei:div[@n=\'$2\'])">
+                <p>This pointer pattern extracts book and section</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts book</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0060/tlg001/tlg0060.tlg001.perseus-grc3.xml </path>
+        <refsDecl id="CTS">
+            <cRefPattern matchPattern="(\\w+).(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div1[@n=\'$1\']/tei:div2[@n=\'$2\']/tei:div3[@n=\'$3\'])">
+                <p>This pointer pattern extracts book and chapter and section</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div1[@n=\'$1\']/tei:div2[@n=\'$2\'])">
+                <p>This pointer pattern extracts book and chapter</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div1[@n=\'$1\'])">
+                <p>This pointer pattern extracts book</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0540/tlg001/tlg0540.tlg001.perseus-grc1.xml </path>
+        <refsDecl id="CTS">
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts section</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0540/tlg023/tlg0540.tlg023.perseus-grc1.xml </path>
+        <refsDecl xmlns="http://www.tei-c.org/ns/1.0" id="CTS">
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts section</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0540/tlg012/tlg0540.tlg012.perseus-grc1.xml </path>
+        <refsDecl xmlns="http://www.tei-c.org/ns/1.0" id="CTS">
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts section</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0540/tlg014/tlg0540.tlg014.perseus-grc1.xml </path>
+        <refsDecl id="CTS">
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts section</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0540/tlg015/tlg0540.tlg015.perseus-grc1.xml </path>
+        <refsDecl id="CTS">
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts section</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0007/tlg015/tlg0007.tlg015.perseus-grc1.xml </path>
+        <refsDecl id="CTS">
+            <cRefPattern matchPattern="(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div1[@n=\'$1\']/tei:div2[@n=\'$2\'])">
+                <p>This pointer pattern extracts chapter and section</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div1[@n=\'$1\'])">
+                <p>This pointer pattern extracts chapter</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0007/tlg001/tlg0007.tlg001.perseus-grc1.xml </path>
+        <refsDecl id="CTS">
+            <cRefPattern matchPattern="(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n=\'$1\']/tei:div[@n=\'$2\'])">
+                <p>This pointer pattern extracts Chapter and Section</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts Chapter</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0007/tlg001/tlg0007.tlg001.perseus-eng2.xml </path>
+        <refsDecl xmlns="http://www.tei-c.org/ns/1.0" id="CTS">
+            <cRefPattern matchPattern="(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n=\'$1\']/tei:div[@n=\'$2\'])">
+                <p>This pointer pattern extracts Chapter and Section</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts Chapter</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0007/tlg047/tlg0007.tlg047.perseus-grc1.xml </path>
+        <refsDecl id="CTS">
+            <cRefPattern matchPattern="(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n=\'$1\']/tei:div[@n=\'$2\'])">
+                <p>This pointer pattern extracts Chapter and Section</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts Chapter</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0007/tlg047/tlg0007.tlg047.perseus-eng1.xml </path>
+        <refsDecl xmlns="http://www.tei-c.org/ns/1.0" id="CTS">
+            <cRefPattern matchPattern="(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n=\'$1\']/tei:div[@n=\'$2\'])">
+                <p>This pointer pattern extracts Chapter and Section</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts Chapter</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0007/tlg012/tlg0007.tlg012.perseus-grc2.xml </path>
+        <refsDecl xmlns="http://www.tei-c.org/ns/1.0" id="CTS">
+            <cRefPattern matchPattern="(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\']/tei:div[@n=\'$2\'])">
+                <p>This pointer pattern extracts chapter and section</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts chapter</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0007/tlg012/tlg0007.tlg012.perseus-eng2.xml </path>
+        <refsDecl xmlns="http://www.tei-c.org/ns/1.0" id="CTS">
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts chapter</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0007/tlg007/tlg0007.tlg007.perseus-grc1.xml </path>
+        <refsDecl id="CTS">
+            <cRefPattern matchPattern="(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div1[@n=\'$1\']/tei:div2[@n=\'$2\'])">
+                <p>This pointer pattern extracts chapter and section</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div1[@n=\'$1\'])">
+                <p>This pointer pattern extracts chapter</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0543/tlg001/tlg0543.tlg001.perseus-grc1.xml </path>
+        <refsDecl id="CTS">
+            <cRefPattern matchPattern="(\\w+).(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div1[@n=\'$1\']/tei:div2[@n=\'$2\']/tei:div3[@n=\'$3\'])">
+                <p>This pointer pattern extracts book and chapter and section</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div1[@n=\'$1\']/tei:div2[@n=\'$2\'])">
+                <p>This pointer pattern extracts book and chapter</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div1[@n=\'$1\'])">
+                <p>This pointer pattern extracts book</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-latinLit/data/phi1020/phi001/phi1020.phi001.perseus-lat2.xml </path>
+        <refsDecl xmlns="http://www.tei-c.org/ns/1.0" id="CTS">
+            <cRefPattern matchPattern="(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\']/tei:l[@n=\'$2\'])">
+                <p>This pointer pattern extracts book and line</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts book</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-latinLit/data/phi1020/phi003/phi1020.phi003.perseus-lat2.xml </path>
+        <refsDecl xmlns="http://www.tei-c.org/ns/1.0" id="CTS">
+            <cRefPattern matchPattern="(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\']/tei:l[@n=\'$2\'])">
+                <p>This pointer pattern extracts book and line</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts book</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-latinLit/data/phi1035/phi001/phi1035.phi001.perseus-lat2.xml </path>
+        <refsDecl xmlns="http://www.tei-c.org/ns/1.0" id="CTS">
+            <cRefPattern matchPattern="(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\']/tei:l[@n=\'$2\'])">
+                <p>This pointer pattern extracts book and line</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts book</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-latinLit/data/phi1345/phi001/phi1345.phi001.perseus-lat2.xml </path>
+        <refsDecl xmlns="http://www.tei-c.org/ns/1.0" id="CTS">
+            <cRefPattern matchPattern="(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\']/tei:l[@n=\'$2\'])">
+                <p>This pointer pattern extracts book and line</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts book</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-latinLit/data/phi0690/phi002/phi0690.phi002.perseus-eng1.xml </path>
+        <refsDecl id="CTS">
+            <cRefPattern matchPattern="(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div[@n=\'$1\']/tei:div[@n=\'$2\'])">
+                <p>This pointer pattern extracts book and card</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts book</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-latinLit/data/phi0959/phi001/phi0959.phi001.perseus-lat2.xml </path>
+        <refsDecl xmlns="http://www.tei-c.org/ns/1.0" id="CTS">
+            <cRefPattern matchPattern="(\\w+).(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type=\'edition\']/tei:div[@n=\'$1\']/tei:div[@n=\'$2\']//tei:l[@n=\'$3\'])">
+                <p>This pointer pattern extracts book and poem and line</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type=\'edition\']/tei:div[@n=\'$1\']/tei:div[@n=\'$2\'])">
+                <p>This pointer pattern extracts book and poem</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type=\'edition\']/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts book</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-latinLit/data/phi0959/phi003/phi0959.phi003.perseus-lat2.xml </path>
+        <refsDecl xmlns="http://www.tei-c.org/ns/1.0" id="CTS">
+            <cRefPattern matchPattern="(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type=\'edition\']/tei:div[@n=\'$1\']//tei:l[@n=\'$2\'])">
+                <p>This pointer pattern extracts poem and line</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type=\'edition\']/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts poem</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-latinLit/data/phi0959/phi004/phi0959.phi004.perseus-lat2.xml </path>
+        <refsDecl xmlns="http://www.tei-c.org/ns/1.0" id="CTS">
+            <cRefPattern matchPattern="(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type=\'edition\']/tei:div[@n=\'$1\']//tei:l[@n=\'$2\'])">
+                <p>This pointer pattern extracts book and line</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type=\'edition\']/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts book</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-latinLit/data/phi0959/phi005/phi0959.phi005.perseus-lat2.xml </path>
+        <refsDecl xmlns="http://www.tei-c.org/ns/1.0" id="CTS">
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type=\'edition\']//tei:l[@n=\'$1\'])">
+                <p>This pointer pattern extracts line</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-latinLit/data/phi0959/phi006/phi0959.phi006.perseus-lat2.xml </path>
+        <refsDecl xmlns="http://www.tei-c.org/ns/1.0" id="CTS">
+            <cRefPattern matchPattern="(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n=\'$1\']/tei:l[@n=\'$2\'])">
+                <p>This pointer pattern extracts book and line</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts book</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-latinLit/data/phi0959/phi007/phi0959.phi007.perseus-lat2.xml </path>
+        <refsDecl xmlns="http://www.tei-c.org/ns/1.0" id="CTS">
+            <cRefPattern matchPattern="(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type=\'edition\']/tei:div[@n=\'$1\']//tei:l[@n=\'$2\'])">
+                <p>This pointer pattern extracts book and line</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type=\'edition\']/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts book</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-latinLit/data/phi0959/phi008/phi0959.phi008.perseus-lat2.xml </path>
+        <refsDecl xmlns="http://www.tei-c.org/ns/1.0" id="CTS">
+            <cRefPattern matchPattern="(\\w+).(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type=\'edition\']/tei:div[@n=\'$1\']/tei:div[@n=\'$2\']//tei:l[@n=\'$3\'])">
+                <p>This pointer pattern extracts book and poem and line</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type=\'edition\']/tei:div[@n=\'$1\']/tei:div[@n=\'$2\'])">
+                <p>This pointer pattern extracts book and poem</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type=\'edition\']/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts book</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-latinLit/data/phi0959/phi009/phi0959.phi009.perseus-lat2.xml </path>
+        <refsDecl xmlns="http://www.tei-c.org/ns/1.0" id="CTS">
+            <cRefPattern matchPattern="(\\w+).(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type=\'edition\']/tei:div[@n=\'$1\']/tei:div[@n=\'$2\']//tei:l[@n=\'$3\'])">
+                <p>This pointer pattern extracts book and poem and line</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type=\'edition\']/tei:div[@n=\'$1\']/tei:div[@n=\'$2\'])">
+                <p>This pointer pattern extracts book and poem</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type=\'edition\']/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts book</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-latinLit/data/phi0959/phi010/phi0959.phi010.perseus-lat2.xml </path>
+        <refsDecl xmlns="http://www.tei-c.org/ns/1.0" id="CTS">
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div[@type=\'edition\']//tei:l[@n=\'$1\'])">
+                <p>This pointer pattern extracts line</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg1389/tlg001/tlg1389.tlg001.perseus-grc1.xml </path>
+        <refsDecl xmlns="http://www.tei-c.org/ns/1.0" id="CTS">
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts Entry</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0085/tlg003/tlg0085.tlg003.perseus-grc2.xml </path>
+        <refsDecl xmlns="http://www.tei-c.org/ns/1.0" id="CTS">
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div//tei:l[@n=\'$1\'])">
+                <p>This pointer pattern extracts line</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0548/tlg001/tlg0548.tlg001.perseus-eng1.xml </path>
+        <refsDecl id="CTS">
+            <cRefPattern matchPattern="(\\w+).(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div[@n=\'$1\']/tei:div[@n=\'$2\']/tei:div[@n=\'$3\'])">
+                <p>This pointer pattern extracts book and chapter and section</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div[@n=\'$1\']/tei:div[@n=\'$2\'])">
+                <p>This pointer pattern extracts book and chapter</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts book</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0548/tlg002/tlg0548.tlg002.perseus-eng1.xml </path>
+        <refsDecl id="CTS">
+            <cRefPattern matchPattern="(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div[@n=\'$1\']/tei:div[@n=\'$2\'])">
+                <p>This pointer pattern extracts chapter and section</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts chapter</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0014/tlg004/tlg0014.tlg004.perseus-grc1.xml </path>
+        <refsDecl id="CTS">
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts section</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0014/tlg002/tlg0014.tlg002.perseus-grc1.xml </path>
+        <refsDecl xmlns="http://www.tei-c.org/ns/1.0" id="CTS">
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts section</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0014/tlg003/tlg0014.tlg003.perseus-grc1.xml </path>
+        <refsDecl xmlns="http://www.tei-c.org/ns/1.0" id="CTS">
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts section</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0010/tlg021/tlg0010.tlg021.perseus-grc1.xml </path>
+        <refsDecl id="CTS">
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts section</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0033/tlg002/tlg0033.tlg002.perseus-eng1.xml </path>
+        <refsDecl xmlns="http://www.tei-c.org/ns/1.0" id="CTS">
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts poem</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0033/tlg001/tlg0033.tlg001.perseus-eng1.xml </path>
+        <refsDecl xmlns="http://www.tei-c.org/ns/1.0" id="CTS">
+            <cRefPattern matchPattern="(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div[@n=\'$1\']/tei:div[@n=\'$2\'])">
+                <p>This pointer pattern extracts poem and line</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts poem</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0527/tlg001/tlg0527.tlg001.perseus-eng1.xml </path>
+        <refsDecl id="CTS">
+            <cRefPattern matchPattern="(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div[@n=\'$1\']/tei:div[@n=\'$2\'])">
+                <p>This pointer pattern extracts chapter and verse</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts chapter</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-latinLit/data/phi0550/phi001/phi0550.phi001.perseus-eng1.xml </path>
+        <refsDecl id="CTS">
+            <cRefPattern matchPattern="(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div[@n=\'$1\']/tei:div[@n=\'$2\'])">
+                <p>This pointer pattern extracts book and line</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts book</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-latinLit/data/phi0914/phi001/phi0914.phi001.perseus-eng3.xml </path>
+        <refsDecl xmlns="http://www.tei-c.org/ns/1.0" id="CTS">
+            <cRefPattern matchPattern="(\\w+).(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div[@n=\'$1\']/tei:div[@n=\'$2\']/tei:div[@n=\'$3\'])">
+                <p>This pointer pattern extracts book and chapter and section</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+).(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div[@n=\'$1\']/tei:div[@n=\'$2\'])">
+                <p>This pointer pattern extracts book and chapter</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts book</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0010/tlg001/tlg0010.tlg001.perseus-grc1.xml </path>
+        <refsDecl xmlns="http://www.tei-c.org/ns/1.0" id="CTS">
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts section</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+    <document>
+        <path>canonicals/canonical-greekLit/data/tlg0010/tlg001/tlg0010.tlg001.perseus-eng1.xml </path>
+        <refsDecl xmlns="http://www.tei-c.org/ns/1.0" id="CTS">
+            <cRefPattern matchPattern="(\\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n=\'$1\'])">
+                <p>This pointer pattern extracts section</p>
+            </cRefPattern>
+        </refsDecl>
+    </document>
+</root>

@@ -40,6 +40,7 @@
     <xsl:template match="text">
         <xsl:element name="text">
             <xsl:attribute name="xml:lang"><xsl:value-of select="@lang"/></xsl:attribute>
+            <xsl:apply-templates/>
         </xsl:element>
     </xsl:template>
     
