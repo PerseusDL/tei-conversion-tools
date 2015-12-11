@@ -17,15 +17,6 @@
             
         </xsl:element>
     </xsl:template>
-    <xsl:template match="revisionDesc">
-        <xsl:element name="revisionDesc">
-            <xsl:element name="change">
-                <xsl:attribute name="who" select="'gcrane'" />
-                <xsl:attribute name="when" select="concat(.//date/text(), '-01-01')" />
-                <xsl:value-of select=".//resp/text()"/>
-            </xsl:element>
-        </xsl:element>
-    </xsl:template>
     <xsl:template match="body">
         <xsl:element name="body">
             <xsl:element name="div">
@@ -40,15 +31,10 @@
     <xsl:template match="encodingDesc">
         <encodingDesc>
             <refsDecl n="CTS">
-                <cRefPattern n="line"
-                    matchPattern="(\w+).(\w+)"
-                    replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
-                    <p>This pointer pattern extracts line</p>
-                </cRefPattern>
-                <cRefPattern n="poem"
+                <cRefPattern n="section"
                     matchPattern="(\w+)"
                     replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-                    <p>This pointer pattern extracts poem and line</p>
+                    <p>This pointer pattern extracts section</p>
                 </cRefPattern>
             </refsDecl>
             <refsDecl n="TEI.2">
